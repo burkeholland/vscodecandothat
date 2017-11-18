@@ -13,18 +13,24 @@ export const store = new Vuex.Store({
         video: 'https://codevids.azureedge.net/videos/emmet.mp4'
       },
       {
-        title: 'Wrap Individual Lines',
-        body:
-          "<p>Wrap any text with a tag. This box also supports Emmet.</p><p>If you have multiple lines that all need to be wrapped in separate tags, use the<code>*</code> symbol.</p><p>A good idea is to add a keyboard shortcut for this as it's paticularly useful for wrapping links with anchor.I have this mapped to <code>Option + Shift + W</code> in my setup. tags.</p>",
-        video: 'https://codevids.azureedge.net/videos/emmet-wrap-selection.mp4'
-      },
-      {
         title: 'Prettier',
         body: `<p>Prettier is a JavaScript code formatting tool. It is paticularly useful to ensure that all developers working on a project are formatting code the same way.</p><p>Prettier has many settings that can be customized, as well as integration with ESLint. Additionally, Visual Studio Code can be configured to format code with Prettier automatically by setting <code>formatOnSave</code> in User Settings.</p><p>1. Install the Prettier Extension for Visual Studio Code</p><p>2. Add the following line to your <strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"prettier.singleQuote": true, 
 "prettier.eslintIntegration": true, 
 "prettier.tabWidth": 2, 
 "editor.formatOnSave": true</code></pre>`,
         video: 'https://codevids.azureedge.net/videos/prettier.mp4'
+      },
+      {
+        title: 'Bookmarks',
+        body:
+          '<p>Bookmarks is an extension you can use to easily mark your place in your file. A blue bookmark icon will appear in the sidebar and you can traverse the file with some quickkeys</p><p>Command + option + K creates a bookmark, and command + option + J jumps between existing marks.</p>',
+        video: 'tba'
+      },
+      {
+        title: 'Wrap Individual Lines',
+        body:
+          "<p>Wrap any text with a tag. This box also supports Emmet.</p><p>If you have multiple lines that all need to be wrapped in separate tags, use the<code>*</code> symbol.</p><p>A good idea is to add a keyboard shortcut for this as it's paticularly useful for wrapping links with anchor.I have this mapped to <code>Option + Shift + W</code> in my setup. tags.</p>",
+        video: 'https://codevids.azureedge.net/videos/emmet-wrap-selection.mp4'
       },
       {
         title: 'Font Ligatures',
