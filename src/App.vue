@@ -19,7 +19,6 @@ export default {
   },
   data() {
     return {
-      isDark: true,
       info: [
         {
           title: 'Interactive Playground',
@@ -43,7 +42,7 @@ export default {
         },
         {
           title: 'Prettier',
-          body: `<p>Prettier is a JavaScript code formatting tool. It is paticularly useful to ensure that all developers working on a project are formatting code the same way.</p><p>Prettier has many settings that can be customized, as well as integration with ESLint. Additionally, Visual Studio Code can be configured to format code with Prettier automatically by setting <code>formatOnSave</code> in User Settings.</p><p>1. Install the Prettier Extension for Visual Studio Code</p><p>2. Add the following line to your <strong>User Preferences...</strong></p><pre><code class="language-javascript">"prettier.singleQuote": true, 
+          body: `<p>Prettier is a JavaScript code formatting tool. It is paticularly useful to ensure that all developers working on a project are formatting code the same way.</p><p>Prettier has many settings that can be customized, as well as integration with ESLint. Additionally, Visual Studio Code can be configured to format code with Prettier automatically by setting <code>formatOnSave</code> in User Settings.</p><p>1. Install the Prettier Extension for Visual Studio Code</p><p>2. Add the following line to your <strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"prettier.singleQuote": true, 
 "prettier.eslintIntegration": true, 
 "prettier.tabWidth": 2, 
 "editor.formatOnSave": true</code></pre>`,
@@ -51,21 +50,12 @@ export default {
         },
         {
           title: 'Font Ligatures',
-          body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Preferences...</strong></p><pre><code class="language-javascript">"editor.fontFamily": "Fira Code", 
+          body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code", 
 "editor.fontLigatures": true</code></pre>`,
           video: 'https://codevids.azureedge.net/videos/font-ligatures.mp4'
         }
       ]
     };
-  },
-  computed: {
-    zebra() {
-      let x = this.info.filter((element, index) => {
-        if (index % 2 === 0) {
-          return (this.isDark = true);
-        }
-      });
-    }
   }
 };
 </script>
@@ -219,5 +209,6 @@ button:hover {
 pre {
   padding: 4px;
   background: #191919;
+  color: #fec302;
 }
 </style>
