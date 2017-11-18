@@ -1,28 +1,42 @@
 <template>
   <section>
-    <div class="info">
-      <div class="num">{{ number }}</div>
-      <h2>{{ title }}</h2>
-      <p>{{ desc }}</p>
-      <a href=""><button>{{ cta }}</button></a>
-    </div>
-    <div class="imgvid">
-      <img src="./../assets/screenshot.png" alt="video of x">
-    </div>
+    <div class="sectioncontain">
+      <div class="info">
+        <div class="num">{{ number | numFormat }}</div>
+        <h2>{{ title }}</h2>
+        <div v-html="body"></div>
+        <a href=""><button>{{ cta }}</button></a>
+      </div>
+      <div class="imgvid">
+        <img src="./../assets/screenshot.png" alt="video of x">
+      </div>
+    </div><!--sectioncontain-->
   </section>
 </template>
 
 <script>
 export default {
+  props: {
+    title: {
+      type: String
+    },
+    body: {
+      type: String
+    },
+    number: {
+      type: Number
+    }
+  },
   data() {
     return {
-      number: '01',
-      title: 'Emmet',
-      desc:
-        'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse nesciunt, accusamus, illo deleniti rerum, quod sed repellat voluptatum consequuntur aspernatur facilis necessitatibus officia reprehenderit reiciendis iusto qui minima? Corrupti, qui!',
       cta: 'Learn More',
       img: 'screenshot.png'
     };
+  },
+  filters: {
+    numFormat(val) {
+      return `0${val + 1}`;
+    }
   }
 };
 </script>
@@ -38,21 +52,30 @@ export default {
 }
 
 section {
-  max-width: 1200px;
-  width: 100%;
+  width: 100vw;
+  padding: 40px;
+}
+
+.sectioncontain {
+  max-width: 1000px;
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
-  margin: 40px auto;
+  margin: 80px auto 20px;
 }
 
 h2 {
   padding-left: 40px;
 }
 
+.info,
+.imgvid {
+  width: 50%;
+}
+
 .info {
-  padding: 20px 100px 20px 20px;
+  padding: 20px 100px 20px 0;
+  margin-left: -30px;
   position: relative;
 }
 
@@ -60,5 +83,9 @@ h2 {
 .imgvid video {
   width: 100%;
   padding: 20px;
+}
+
+p {
+  margin-bottom: 0;
 }
 </style>
