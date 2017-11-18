@@ -82,7 +82,8 @@ h2 {
 .imgvid img,
 .imgvid video {
   width: 100%;
-  padding: 20px;
+  box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
 }
 
 p {

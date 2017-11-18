@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <app-masthead />
     <app-section 
       v-for="(d, i) in info" 
       key="i" 
@@ -12,10 +13,12 @@
 
 <script>
 import AppSection from './components/AppSection';
+import AppMasthead from './components/AppMasthead';
 
 export default {
   components: {
-    AppSection
+    AppSection,
+    AppMasthead
   },
   computed: {
     info() {
@@ -93,6 +96,7 @@ body {
   padding: 0;
   line-height: 1.4em;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 h1 {
