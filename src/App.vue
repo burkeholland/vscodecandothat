@@ -7,7 +7,7 @@
       :title="d.title" 
       :body="d.body" 
       :number="i" 
-      class="dark"/>
+      class="dark" />
   </div>
 </template>
 
@@ -110,7 +110,6 @@ h3 {
 }
 
 /* reset button */
-
 [role='button'],
 input[type='submit'],
 input[type='reset'],
@@ -129,7 +128,6 @@ button {
   background: none;
   border: 0;
   color: inherit;
-  /* cursor: default; */
   font: inherit;
   line-height: normal;
   overflow: visible;

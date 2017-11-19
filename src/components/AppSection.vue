@@ -30,7 +30,7 @@ export default {
   data() {
     return {
       cta: 'Learn More',
-      img: 'screenshot.png'
+      img: 'screenshot.png' //placeholder for now
     };
   },
   filters: {
