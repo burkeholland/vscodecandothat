@@ -14,9 +14,9 @@ export const store = new Vuex.Store({
       },
       {
         title: 'Prettier',
-        body: `<p>Prettier is a JavaScript code formatting tool. It is paticularly useful to ensure that all developers working on a project are formatting code the same way.</p><p>Prettier has many settings that can be customized, as well as integration with ESLint. Additionally, Visual Studio Code can be configured to format code with Prettier automatically by setting <code>formatOnSave</code> in User Settings.</p><p>1. Install the Prettier Extension for Visual Studio Code</p><p>2. Add the following line to your <strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"prettier.singleQuote": true, 
-"prettier.eslintIntegration": true, 
-"prettier.tabWidth": 2, 
+        body: `<p>Prettier is a JavaScript code formatting tool. It is paticularly useful to ensure that all developers working on a project are formatting code the same way.</p><p>Prettier has many settings that can be customized, as well as integration with ESLint. Additionally, Visual Studio Code can be configured to format code with Prettier automatically by setting <code>formatOnSave</code> in User Settings.</p><p>1. Install the Prettier Extension for Visual Studio Code</p><p>2. Add the following line to your <strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"prettier.singleQuote": true,
+"prettier.eslintIntegration": true,
+"prettier.tabWidth": 2,
 "editor.formatOnSave": true</code></pre>`,
         video: 'https://codevids.azureedge.net/videos/prettier.mp4'
       },
@@ -34,7 +34,7 @@ export const store = new Vuex.Store({
       },
       {
         title: 'Font Ligatures',
-        body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code", 
+        body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true</code></pre>`,
         video: 'https://codevids.azureedge.net/videos/font-ligatures.mp4'
       },
@@ -42,21 +42,26 @@ export const store = new Vuex.Store({
         title: 'Interactive Playground',
         body:
           '<p>Visible the first time VS Code is opened for a project. Get back to it at any time by selecting "Welcome" from the Command Pallete.</p>',
-        video:
-          'https://codevids.azureedge.net/videos/interactive-playground.mp4'
+        video: 'https://codevids.azureedge.net/videos/interactive-playground.mp4'
       },
       {
         title: 'Terminals',
         body:
           '<p>VS Code has a powerful built-in terminal featuring support for multiple terminal instances and high performance rendering. It also provides convenient access to the system termainal at any time with the <code>Ctr/Cmd + Shift + C</code> keyboard shortcut.</p>',
-        video:
-          'https://codevids.azureedge.net/videos/open-external-terminal.mp4'
+        video: 'https://codevids.azureedge.net/videos/open-external-terminal.mp4'
       },
       {
         title: 'Debugging',
         body:
           '<p>Run and debug any JavaScript file without any launch configuration. VS Code also has support for advanced debugging functionality, such as breakpoint expressions and column breakpoints.</p>',
         video: 'https://codevids.azureedge.net/videos/run-debug.mp4'
+      },
+
+      {
+        title: 'Debugging Other',
+        body:
+          '<p>Run and debug any JavaScript file without any launch configuration. VS Code also has support for advanced debugging functionality, such as breakpoint expressions and column breakpoints.</p>',
+        video: 'https://www.youtube.com/embed/wMa-igLKRCU'
       },
       {
         title: 'JavaScript Type Checking',
@@ -86,8 +91,7 @@ export const store = new Vuex.Store({
         title: 'Launch Configurations',
         body:
           '<p>VS Code can launch and attach the debugger across multiple processes. This is called a "Compound Launch Configuration". This is useful when dealing with a font-end heavy application that contains both a server comonent and some sort of built-in development server (such as Webpack) which is hanlding live-reloads.</p><p>This video uses the following launch configuration to debug both an application that has both server (Express) and front-end (React) components and uses the following launch configuration (launch.json).</p><pre><code class="language-javascript">{\n  "compounds": [\n    {\n      "name": "Launch Browser/Server",\n      "configurations": ["Launch Browser", "Launch Server"] \n    }\n  ],\n  "configurations": [\n    {\n      "type": "chrome",\n      "request": "launch",\n      "name": "Launch Browser",\n      "url": "http://localhost:3000",\n      "webRoot": "${workspaceRoot}/src"\n    },\n    {\n      "type": "node",\n      "request": "launch",\n      "name": "Launch Server",\n      "program": "${workspaceRoot}/server/server.js"\n    }\n  ]\n}</code></pre><p>Note: you need to have the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger For Chrome</a> extension installed to debug applications running in Chrome.</p>',
-        video:
-          'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4'
+        video: 'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4'
       },
       {
         title: 'Deployment',
