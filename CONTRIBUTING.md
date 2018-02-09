@@ -36,6 +36,7 @@ video.
 ### Recording Specs
 
 * Record at 1280 x 720
+* Use Monokai Dark Theme
 * Use these VS Code settings for consistency: [GitHub gist](https://gist.github.com/clarkio/8489b26afe352f6e6feb0f1b7fcde0a8)
 * Hide the sidebar whenever code is being shown
 * Move deliberately. There is no sound so the user needs to be able to follow
