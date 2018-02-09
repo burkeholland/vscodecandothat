@@ -5,15 +5,16 @@
       v-for="(d, i) in info" 
       key="i" 
       :title="d.title" 
-      :body="d.body" 
+      :body="d.body"
+      :video="d.video" 
       :number="i" 
       class="dark" />
   </div>
 </template>
 
 <script>
-import AppSection from './components/AppSection';
-import AppMasthead from './components/AppMasthead';
+import AppSection from './components/AppSection'
+import AppMasthead from './components/AppMasthead'
 
 export default {
   components: {
@@ -22,10 +23,10 @@ export default {
   },
   computed: {
     info() {
-      return this.$store.state.info;
+      return this.$store.state.info
     }
   }
-};
+}
 </script>
 
 <style>
