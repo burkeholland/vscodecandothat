@@ -57,7 +57,7 @@ export default {
   },
   filters: {
     numFormat(val) {
-      return val.toString().length === 1 ? `0${val + 1}` : val
+      return val.toString().length === 1 ? `0${val}` : val
     }
   }
 }

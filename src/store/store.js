@@ -1,7 +1,7 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from 'vue'
+import Vuex from 'vuex'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 export const store = new Vuex.Store({
   state: {
@@ -24,7 +24,7 @@ export const store = new Vuex.Store({
         title: 'Bookmarks',
         body:
           '<p>Bookmarks is an extension you can use to easily mark your place in your file. A blue bookmark icon will appear in the sidebar and you can traverse the file with some quickkeys</p><p>Command + option + K creates a bookmark, and command + option + J jumps between existing marks.</p>',
-        video: 'tba'
+        video: ''
       },
       {
         title: 'Wrap Individual Lines',
@@ -42,13 +42,15 @@ export const store = new Vuex.Store({
         title: 'Interactive Playground',
         body:
           '<p>Visible the first time VS Code is opened for a project. Get back to it at any time by selecting "Welcome" from the Command Pallete.</p>',
-        video: 'https://codevids.azureedge.net/videos/interactive-playground.mp4'
+        video:
+          'https://codevids.azureedge.net/videos/interactive-playground.mp4'
       },
       {
         title: 'Terminals',
         body:
           '<p>VS Code has a powerful built-in terminal featuring support for multiple terminal instances and high performance rendering. It also provides convenient access to the system termainal at any time with the <code>Ctr/Cmd + Shift + C</code> keyboard shortcut.</p>',
-        video: 'https://codevids.azureedge.net/videos/open-external-terminal.mp4'
+        video:
+          'https://codevids.azureedge.net/videos/open-external-terminal.mp4'
       },
       {
         title: 'Debugging',
@@ -91,7 +93,8 @@ export const store = new Vuex.Store({
         title: 'Launch Configurations',
         body:
           '<p>VS Code can launch and attach the debugger across multiple processes. This is called a "Compound Launch Configuration". This is useful when dealing with a font-end heavy application that contains both a server comonent and some sort of built-in development server (such as Webpack) which is hanlding live-reloads.</p><p>This video uses the following launch configuration to debug both an application that has both server (Express) and front-end (React) components and uses the following launch configuration (launch.json).</p><pre><code class="language-javascript">{\n  "compounds": [\n    {\n      "name": "Launch Browser/Server",\n      "configurations": ["Launch Browser", "Launch Server"] \n    }\n  ],\n  "configurations": [\n    {\n      "type": "chrome",\n      "request": "launch",\n      "name": "Launch Browser",\n      "url": "http://localhost:3000",\n      "webRoot": "${workspaceRoot}/src"\n    },\n    {\n      "type": "node",\n      "request": "launch",\n      "name": "Launch Server",\n      "program": "${workspaceRoot}/server/server.js"\n    }\n  ]\n}</code></pre><p>Note: you need to have the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger For Chrome</a> extension installed to debug applications running in Chrome.</p>',
-        video: 'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4'
+        video:
+          'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4'
       },
       {
         title: 'Deployment',
@@ -101,4 +104,4 @@ export const store = new Vuex.Store({
       }
     ]
   }
-});
+})
