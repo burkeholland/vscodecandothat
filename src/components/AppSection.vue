@@ -8,7 +8,7 @@
         <a href=""><button>{{ cta }}</button></a>
       </div>
       <div class="imgvid">
-        <img src="./../assets/screenshot.png" alt="video of x">
+        <iframe width="560" height="315" :src="video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div><!--sectioncontain-->
   </section>
@@ -25,6 +25,9 @@ export default {
     },
     number: {
       type: Number
+    },
+    video: {
+      type: String
     }
   },
   data() {
@@ -80,10 +83,15 @@ h2 {
 }
 
 .imgvid img,
-.imgvid video {
+.imgvid iframe {
   width: 100%;
   box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
+}
+
+@media only screen and (max-width: 1090px) {
+  .sectioncontain {
+  }
 }
 
 p {
