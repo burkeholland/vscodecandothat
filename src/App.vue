@@ -3,9 +3,10 @@
     <app-masthead />
     <app-section 
       v-for="(d, i) in info" 
-      key="i" 
+      :key="i" 
       :title="d.title" 
       :body="d.body" 
+      :video="d.video"
       :number="i" 
       class="dark" />
   </div>
