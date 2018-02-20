@@ -1,10 +1,9 @@
 <template>
   <div class="mastheadcontain">
-    <h1>VS Code Can Do That?!</h1>
+    <h1>VS Code can do that?!</h1>
     <h3>All the best things about Visual Studio Code that nobody ever bothered to tell you</h3>
     <div class="bottomtag">
-      <h4>Hosted on Azure App Service</h4>
-      <h4>Videos stream from Azure CDN</h4>
+      <h4>Hosted on <a href="">Azure App Service</a></h4>
     </div>
   </div>
 </template>
