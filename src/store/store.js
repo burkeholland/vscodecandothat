@@ -10,7 +10,13 @@ export const store = new Vuex.Store({
         title: 'Emmet',
         body:
           '<p>Emmet is a markup expansion tool that makes writing HTML much easier. It has a simple syntax and is not difficult to master. VS Code supports Emmet by default.</p><p>Refer to the <a class="has-text-weight-bold" href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a> to learn more about the Emmet syntax.</p>',
-        video: 'https://codevids.azureedge.net/videos/emmet.mp4'
+        video: 'https://www.youtube.com/embed/8Ry05EZ7Y4o'
+      },
+      {
+        title: 'Cosmos DB / Mongo DB',
+        body:
+          '<p>The Cosmos DB extension for VS Code puts Mongo DB database access right inside of the editor.</p>',
+        video: 'https://www.youtube.com/embed/6KQprxAm7dk?rel=0'
       },
       {
         title: 'Prettier',
@@ -42,13 +48,15 @@ export const store = new Vuex.Store({
         title: 'Interactive Playground',
         body:
           '<p>Visible the first time VS Code is opened for a project. Get back to it at any time by selecting "Welcome" from the Command Pallete.</p>',
-        video: 'https://codevids.azureedge.net/videos/interactive-playground.mp4'
+        video:
+          'https://codevids.azureedge.net/videos/interactive-playground.mp4'
       },
       {
         title: 'Terminals',
         body:
           '<p>VS Code has a powerful built-in terminal featuring support for multiple terminal instances and high performance rendering. It also provides convenient access to the system termainal at any time with the <code>Ctr/Cmd + Shift + C</code> keyboard shortcut.</p>',
-        video: 'https://codevids.azureedge.net/videos/open-external-terminal.mp4'
+        video:
+          'https://codevids.azureedge.net/videos/open-external-terminal.mp4'
       },
       {
         title: 'Debugging',
@@ -91,7 +99,8 @@ export const store = new Vuex.Store({
         title: 'Launch Configurations',
         body:
           '<p>VS Code can launch and attach the debugger across multiple processes. This is called a "Compound Launch Configuration". This is useful when dealing with a font-end heavy application that contains both a server comonent and some sort of built-in development server (such as Webpack) which is hanlding live-reloads.</p><p>This video uses the following launch configuration to debug both an application that has both server (Express) and front-end (React) components and uses the following launch configuration (launch.json).</p><pre><code class="language-javascript">{\n  "compounds": [\n    {\n      "name": "Launch Browser/Server",\n      "configurations": ["Launch Browser", "Launch Server"] \n    }\n  ],\n  "configurations": [\n    {\n      "type": "chrome",\n      "request": "launch",\n      "name": "Launch Browser",\n      "url": "http://localhost:3000",\n      "webRoot": "${workspaceRoot}/src"\n    },\n    {\n      "type": "node",\n      "request": "launch",\n      "name": "Launch Server",\n      "program": "${workspaceRoot}/server/server.js"\n    }\n  ]\n}</code></pre><p>Note: you need to have the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger For Chrome</a> extension installed to debug applications running in Chrome.</p>',
-        video: 'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4'
+        video:
+          'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4'
       },
       {
         title: 'Deployment',
