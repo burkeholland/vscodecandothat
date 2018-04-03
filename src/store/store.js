@@ -10,7 +10,13 @@ export const store = new Vuex.Store({
         title: 'Emmet',
         body:
           '<p>Emmet is a markup expansion tool that makes writing HTML much easier. It has a simple syntax and is not difficult to master. VS Code supports Emmet by default.</p><p>Refer to the <a class="has-text-weight-bold" href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a> to learn more about the Emmet syntax.</p>',
-        video: 'https://codevids.azureedge.net/videos/emmet.mp4'
+        video: 'https://www.youtube.com/embed/8Ry05EZ7Y4o'
+      },
+      {
+        title: 'Cosmos DB / Mongo DB',
+        body:
+          '<p>The Cosmos DB extension for VS Code puts Mongo DB database access right inside of the editor.</p>',
+        video: 'https://www.youtube.com/embed/6KQprxAm7dk?rel=0'
       },
       {
         title: 'Prettier',

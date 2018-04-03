@@ -7,14 +7,8 @@
         <div v-html="body"></div>
         <a href=""><button>{{ cta }}</button></a>
       </div>
-      <div v-if="video" class="imgvid">
-        <video @click="playpause">
-          <source :src="video" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div v-else class="imgvid">
-        <img src="./../assets/screenshot.png" alt="video of x">
+      <div class="imgvid">
+        <iframe width="560" height="315" :src="video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div><!--sectioncontain-->
   </section>
@@ -35,6 +29,9 @@ export default {
     },
     number: {
       type: Number
+    },
+    video: {
+      type: String
     }
   },
   data() {
@@ -102,11 +99,16 @@ h2 {
 }
 
 .imgvid img,
-.imgvid video {
+.imgvid iframe {
   width: 100%;
   box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1090px) {
+  .sectioncontain {
+  }
 }
 
 p {
