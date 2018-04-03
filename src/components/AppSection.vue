@@ -23,6 +23,10 @@ export default {
     body: {
       type: String
     },
+    video: {
+      type: String,
+      default: ''
+    },
     number: {
       type: Number
     },
@@ -32,16 +36,28 @@ export default {
   },
   data() {
     return {
+      isPlaying: false,
       cta: 'Learn More',
       img: 'screenshot.png' //placeholder for now
-    };
+    }
+  },
+  methods: {
+    playpause(e) {
+      if (this.isPlaying) {
+        e.target.pause()
+        this.isPlaying = false
+      } else {
+        e.target.play()
+        this.isPlaying = true
+      }
+    }
   },
   filters: {
     numFormat(val) {
-      return `0${val + 1}`;
+      return val.toString().length === 1 ? `0${val}` : val
     }
   }
-};
+}
 </script>
 
 <style scoped>
@@ -87,6 +103,7 @@ h2 {
   width: 100%;
   box-shadow: 2px 1px 6px 2px rgba(0, 0, 0, 0.25);
   border-radius: 3px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1090px) {

@@ -1,7 +1,7 @@
-import Vue from 'vue';
-import Vuex from 'vuex';
+import Vue from 'vue'
+import Vuex from 'vuex'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 export const store = new Vuex.Store({
   state: {
@@ -30,7 +30,7 @@ export const store = new Vuex.Store({
         title: 'Bookmarks',
         body:
           '<p>Bookmarks is an extension you can use to easily mark your place in your file. A blue bookmark icon will appear in the sidebar and you can traverse the file with some quickkeys</p><p>Command + option + K creates a bookmark, and command + option + J jumps between existing marks.</p>',
-        video: 'tba'
+        video: ''
       },
       {
         title: 'Wrap Individual Lines',
@@ -110,4 +110,4 @@ export const store = new Vuex.Store({
       }
     ]
   }
-});
+})
