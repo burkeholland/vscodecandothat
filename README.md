@@ -1,10 +1,18 @@
-# vscodecandothat
+# VS Code Can Do That?!
 
 > rock n roll
 
+## Article
+
+If you'd like to read more about what VS Code can do, Burke Holland has [written an article](http://localhost:8080) on Smashing Magazine.
+
+## Credits
+
+This project is the brainchild of [Burke Holland](https://github.com/burkeholland), who created the content and the videos. Sarah Drasner merely did the dev and design to house the concept.
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 yarn or npm install
 

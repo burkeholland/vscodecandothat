@@ -36,20 +36,8 @@ export default {
   },
   data() {
     return {
-      isPlaying: false,
       cta: 'Learn More',
       img: 'screenshot.png' //placeholder for now
-    }
-  },
-  methods: {
-    playpause(e) {
-      if (this.isPlaying) {
-        e.target.pause()
-        this.isPlaying = false
-      } else {
-        e.target.play()
-        this.isPlaying = true
-      }
     }
   },
   filters: {
@@ -60,7 +48,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 .num {
   font-family: 'AvenirNextLTW01-UltraLi', Helvetica, Arial, sans-serif;
   font-size: 175px;
@@ -106,12 +94,59 @@ h2 {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1090px) {
+p {
+  margin-bottom: 0;
+}
+
+pre {
+  overflow: scroll;
+}
+
+@media screen and (max-width: 1100px) {
   .sectioncontain {
+    padding: 0 70px;
+  }
+  .info {
+    padding: 20px 50px 20px 0;
   }
 }
 
-p {
-  margin-bottom: 0;
+@media screen and (max-width: 700px) {
+  .sectioncontain {
+    flex-direction: column !important;
+    padding: 0 40px !important;
+  }
+  .info,
+  .imgvid {
+    width: 100% !important;
+    margin-bottom: 40px !important;
+  }
+  .imgvid {
+    margin-left: -80px !important;
+  }
+  h1 {
+    padding-left: 20px !important;
+  }
+  h2 {
+    padding-left: 0 !important;
+  }
+  h3 {
+    width: 83% !important;
+  }
+  .num {
+    font-size: 110px;
+    margin-left: -40px;
+    margin-top: 5px;
+  }
+  pre {
+    font-size: 15px !important;
+  }
+  .bottomtag {
+    padding-right: 30px !important;
+    margin-top: 0 !important;
+  }
+  .info p {
+    width: 75vw;
+  }
 }
 </style>
