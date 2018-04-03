@@ -161,7 +161,7 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   float: right;
-  transition: 0.3s all ease-out;
+  transition: 0.25s all ease-out;
 }
 
 button:hover {

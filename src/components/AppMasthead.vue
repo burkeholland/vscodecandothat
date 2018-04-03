@@ -4,12 +4,13 @@
     <h3>All the best things about Visual Studio Code that nobody ever bothered to tell you</h3>
     <div class="bottomtag">
       <h4>Hosted on <a href="">Azure App Service</a></h4>
+      <h4>Brought to you by <a href="https://twitter.com/burkeholland" target="_blank">Burke Holland</a> and <a href="https://twitter.com/sarah_edo" target="_blank">Sarah Drasner</a></h4>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style scoped>

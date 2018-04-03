@@ -36,20 +36,8 @@ export default {
   },
   data() {
     return {
-      isPlaying: false,
       cta: 'Learn More',
       img: 'screenshot.png' //placeholder for now
-    }
-  },
-  methods: {
-    playpause(e) {
-      if (this.isPlaying) {
-        e.target.pause()
-        this.isPlaying = false
-      } else {
-        e.target.play()
-        this.isPlaying = true
-      }
     }
   },
   filters: {
@@ -106,8 +94,36 @@ h2 {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 1090px) {
+@media (max-width: 900px) {
   .sectioncontain {
+    padding: 0 70px;
+  }
+  .info {
+    padding: 20px 50px 20px 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .sectioncontain {
+    flex-direction: column;
+  }
+  .info,
+  .imgvid {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .imgvid {
+    margin-left: -40px;
+  }
+  h1 {
+    padding-left: 20px;
+  }
+  h3 {
+    width: 83%;
+  }
+  .bottomtag {
+    padding-right: 30px;
+    margin-top: 0;
   }
 }
 
