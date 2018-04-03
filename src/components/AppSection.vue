@@ -48,7 +48,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .num {
   font-family: 'AvenirNextLTW01-UltraLi', Helvetica, Arial, sans-serif;
   font-size: 175px;
@@ -94,7 +94,11 @@ h2 {
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
+p {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
   .sectioncontain {
     padding: 0 70px;
   }
@@ -103,31 +107,34 @@ h2 {
   }
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .sectioncontain {
-    flex-direction: column;
+    flex-direction: column !important;
+    padding: 0 40px !important;
   }
   .info,
   .imgvid {
-    width: 100%;
-    margin-bottom: 40px;
+    width: 100% !important;
+    margin-bottom: 40px !important;
   }
   .imgvid {
     margin-left: -40px;
   }
   h1 {
-    padding-left: 20px;
+    padding-left: 20px !important;
+  }
+  h2 {
+    padding-left: 0;
   }
   h3 {
-    width: 83%;
+    width: 83% !important;
   }
   .bottomtag {
-    padding-right: 30px;
-    margin-top: 0;
+    padding-right: 30px !important;
+    margin-top: 0 !important;
   }
-}
-
-p {
-  margin-bottom: 0;
+  .info p {
+    width: 75vw;
+  }
 }
 </style>
