@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <app-masthead />
-    <app-section 
-      v-for="(d, i) in info" 
-      :key="i" 
-      :title="d.title" 
-      :body="d.body" 
+    <app-section
+      v-for="(d, i) in info"
+      :key="i"
+      :title="d.title"
+      :body="d.body"
       :video="d.video"
-      :number="i" 
+      :number="i"
+      :ctaTarget="d.ctaTarget"
       class="dark" />
   </div>
 </template>

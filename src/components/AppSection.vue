@@ -5,7 +5,7 @@
         <div class="num">{{ number | numFormat }}</div>
         <h2>{{ title }}</h2>
         <div v-html="body"></div>
-        <a href=""><button>{{ cta }}</button></a>
+        <a :href="ctaTarget"><button>{{ cta }}</button></a>
       </div>
       <div class="imgvid">
         <iframe width="560" height="315" :src="video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -26,6 +26,10 @@ export default {
     video: {
       type: String,
       default: ''
+    },
+    ctaTarget: {
+      type: String,
+      default: 'https://www.smashingmagazine.com/2018/01/visual-studio-code/'
     },
     number: {
       type: Number

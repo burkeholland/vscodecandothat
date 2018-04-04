@@ -10,7 +10,8 @@ export const store = new Vuex.Store({
         title: 'Update Image Size',
         body:
           "<p>VS Code can automatically update HTML img tags with the correct size of images. This works for images that are local to the project as well as images included by URL. It also works in CSS properties like `background-image`.</p>",
-        video: 'https://www.youtube.com/embed/drXu4L-4Q3I'
+        video: 'https://www.youtube.com/embed/drXu4L-4Q3I',
+        ctaTarget: 'https://youtu.be/8Ry05EZ7Y4o?t=7m36s'
       },
       {
         title: 'Emmet',
