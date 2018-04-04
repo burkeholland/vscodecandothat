@@ -17,13 +17,15 @@ export const store = new Vuex.Store({
         title: 'Emmet',
         body:
           '<p>Emmet is a markup expansion tool that makes writing HTML much easier. It has a simple syntax and is not difficult to master. VS Code supports Emmet by default.</p><p>Refer to the <a class="has-text-weight-bold" href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a> to learn more about the Emmet syntax.</p>',
-        video: 'https://www.youtube.com/embed/e1zhJjM4p0k'
+        video: 'https://www.youtube.com/embed/e1zhJjM4p0k',
+        ctaTarget: 'https://youtu.be/8Ry05EZ7Y4o'
       },
       {
         title: 'Wrap Individual Lines',
         body:
           "<p>Wrap any text with a tag. This box also supports Emmet.</p><p>If you have multiple lines that all need to be wrapped in separate tags, use the<code>*</code> symbol.</p><p>A good idea is to add a keyboard shortcut for this as it's paticularly useful for wrapping links with anchor.I have this mapped to <code>Option + Shift + W</code> in my setup. tags.</p>",
-        video: 'https://www.youtube.com/embed/iJ068939sLw'
+        video: 'https://www.youtube.com/embed/iJ068939sLw',
+        ctaTarget: 'https://youtu.be/8Ry05EZ7Y4o?t=3m36s'
       },
       {
         title: 'Prettier',
@@ -31,7 +33,7 @@ export const store = new Vuex.Store({
 "prettier.eslintIntegration": true,
 "prettier.tabWidth": 2,
 "editor.formatOnSave": true</code></pre>`,
-        video: 'https://www.youtube.com/embed/GP9mTqCeoi4'
+        video: 'https://www.youtube.com/embed/GP9mTqCeoi4',
       },
       {
         title: 'Font Ligatures',
