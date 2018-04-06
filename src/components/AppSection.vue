@@ -42,14 +42,14 @@ export default {
     return {
       cta: 'Learn More',
       img: 'screenshot.png' //placeholder for now
-    }
+    };
   },
   filters: {
     numFormat(val) {
-      return val.toString().length === 1 ? `0${val}` : val
+      return val.toString().length === 1 ? `0${val}` : val;
     }
   }
-}
+};
 </script>
 
 <style lang="scss">

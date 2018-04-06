@@ -1,7 +1,7 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from 'vue';
+import Vuex from 'vuex';
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export const store = new Vuex.Store({
   state: {
@@ -9,7 +9,7 @@ export const store = new Vuex.Store({
       {
         title: 'Update Image Size',
         body:
-          "<p>VS Code can automatically update HTML img tags with the correct size of images. This works for images that are local to the project as well as images included by URL. It also works in CSS properties like `background-image`.</p>",
+          '<p>VS Code can automatically update HTML img tags with the correct size of images. This works for images that are local to the project as well as images included by URL. It also works in CSS properties like `background-image`.</p>',
         video: 'https://www.youtube.com/embed/drXu4L-4Q3I',
         ctaTarget: 'https://youtu.be/8Ry05EZ7Y4o?t=7m36s'
       },
@@ -34,6 +34,7 @@ export const store = new Vuex.Store({
 "prettier.tabWidth": 2,
 "editor.formatOnSave": true</code></pre>`,
         video: 'https://www.youtube.com/embed/GP9mTqCeoi4',
+        ctaTarget: 'https://cda.ms/pv'
       },
       {
         title: 'Font Ligatures',
@@ -42,55 +43,57 @@ export const store = new Vuex.Store({
         video: 'https://www.youtube.com/embed/KI6m_B1f8jc'
       },
       {
+        title: 'Interactive Playground',
+        body:
+          '<p>Visible the first time VS Code is opened for a project. Get back to it at any time by selecting "Welcome" from the Command Pallete.</p>',
+        video: 'https://www.youtube.com/embed/x6Nxh53NEG0'
+      },
+      {
+        title: 'JavaScript Type Checking',
+        body:
+          '<p>Use TypeScript to check your plain JavaScript code by adding a <code>//@ts-check</code> to the top of the file.</p><p> To enable the setting globally across your entire project, add the following line to your <b>User Preferences</b> (<code>⌘ + ,</code>)...</p><pre><code class="language-javascript">"javascript.implicitProjectConfig.checkJs": true  </code></pre><p>Drop a <code>.tsconfig</code> file in your project to control specific TypeScript checking features.</p>',
+        video: 'https://www.youtube.com/embed/WOW-BQIcHzs'
+      },
+      {
+        title: 'JSON Intellisense',
+        body:
+          '<p>Intellisense is provided in JSON files. This works not only in the User Preferences file, but also in package.json files allowing you to see the current version of any npm package as you import it.</p><p>Use <code>Ctrl + Spacebar</code> to trigger intellisense at any time.</p>',
+        video: 'https://www.youtube.com/embed/dtEjjHLGL5U'
+      },
+      {
+        title: 'Debugging',
+        body:
+          '<p>Run and debug any JavaScript file without any launch configuration. VS Code also has support for advanced debugging functionality, such as breakpoint expressions and column breakpoints.</p>',
+        video: 'https://www.youtube.com/embed/beNIDKgdzwQ',
+        ctaTarget: 'https://www.youtube.com/video/4Me2IOS3MFE'
+      },
+      {
+        title: 'Launch Configurations',
+        body:
+          '<p>VS Code can launch and attach the debugger across multiple processes. This is called a "Compound Launch Configuration". This is useful when dealing with a font-end heavy application that contains both a server comonent and some sort of built-in development server (such as Webpack) which is hanlding live-reloads.</p><p>This video uses the following launch configuration to debug both an application that has both server (Express) and front-end (React) components and uses the following launch configuration (launch.json).</p><pre><code class="language-javascript">{\n  "compounds": [\n    {\n      "name": "Launch Browser/Server",\n      "configurations": ["Launch Browser", "Launch Server"] \n    }\n  ],\n  "configurations": [\n    {\n      "type": "chrome",\n      "request": "launch",\n      "name": "Launch Browser",\n      "url": "http://localhost:3000",\n      "webRoot": "${workspaceRoot}/src"\n    },\n    {\n      "type": "node",\n      "request": "launch",\n      "name": "Launch Server",\n      "program": "${workspaceRoot}/server/server.js"\n    }\n  ]\n}</code></pre><p>Note: you need to have the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger For Chrome</a> extension installed to debug applications running in Chrome.</p>',
+        video:
+          'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4',
+        ctaTarget: 'https://www.youtube.com/video/4Me2IOS3MFE'
+      },
+      {
+        title: 'Terminals',
+        body:
+          '<p>VS Code has a powerful built-in terminal featuring support for multiple terminal instances and high performance rendering. It also provides convenient access to the system termainal at any time with the <code>Ctr/Cmd + Shift + C</code> keyboard shortcut.</p>',
+        video: 'https://www.youtube.com/embed/Y7ZqDrIv--c',
+        ctaTarget: ''
+      },
+      {
         title: 'Cosmos DB / Mongo DB',
         body:
           '<p>The Cosmos DB extension for VS Code puts Mongo DB database access right inside of the editor.</p>',
-        video: 'https://www.youtube.com/embed/6KQprxAm7dk?rel=0'
+        video: 'https://www.youtube.com/embed/NfPhbzRRnYE',
+        ctaTarget: 'https://www.youtube.com/embed/6KQprxAm7dk?rel=0'
       },
       {
         title: 'Bookmarks',
         body:
           '<p>Bookmarks is an extension you can use to easily mark your place in your file. A blue bookmark icon will appear in the sidebar and you can traverse the file with some quickkeys</p><p>Command + option + K creates a bookmark, and command + option + J jumps between existing marks.</p>',
         video: ''
-      },
-      {
-        title: 'Interactive Playground',
-        body:
-          '<p>Visible the first time VS Code is opened for a project. Get back to it at any time by selecting "Welcome" from the Command Pallete.</p>',
-        video:
-          'https://codevids.azureedge.net/videos/interactive-playground.mp4'
-      },
-      {
-        title: 'Terminals',
-        body:
-          '<p>VS Code has a powerful built-in terminal featuring support for multiple terminal instances and high performance rendering. It also provides convenient access to the system termainal at any time with the <code>Ctr/Cmd + Shift + C</code> keyboard shortcut.</p>',
-        video:
-          'https://codevids.azureedge.net/videos/open-external-terminal.mp4'
-      },
-      {
-        title: 'Debugging',
-        body:
-          '<p>Run and debug any JavaScript file without any launch configuration. VS Code also has support for advanced debugging functionality, such as breakpoint expressions and column breakpoints.</p>',
-        video: 'https://codevids.azureedge.net/videos/run-debug.mp4'
-      },
-
-      {
-        title: 'Debugging Other',
-        body:
-          '<p>Run and debug any JavaScript file without any launch configuration. VS Code also has support for advanced debugging functionality, such as breakpoint expressions and column breakpoints.</p>',
-        video: 'https://www.youtube.com/embed/wMa-igLKRCU'
-      },
-      {
-        title: 'JavaScript Type Checking',
-        body:
-          '<p>Use TypeScript to check your plain JavaScript code by adding a <code>//@ts-check</code> to the top of the file.</p><p> To enable the setting globally across your entire project, add the following line to your <b>User Preferences</b> (<code>⌘ + ,</code>)...</p><pre><code class="language-javascript">"javascript.implicitProjectConfig.checkJs": true  </code></pre><p>Drop a <code>.tsconfig</code> file in your project to control specific TypeScript checking features.</p>',
-        video: 'https://codevids.azureedge.net/videos/ts-check.mp4'
-      },
-      {
-        title: 'JSON Intellisense',
-        body:
-          '<p>Intellisense is provided in JSON files. This works not only in the User Preferences file, but also in package.json files allowing you to see the current version of any npm package as you import it.</p><p>Use <code>Ctrl + Spacebar</code> to trigger intellisense at any time.</p>',
-        video: 'https://codevids.azureedge.net/videos/json-intellisense.mp4'
       },
       {
         title: 'Docker',
@@ -105,13 +108,6 @@ export const store = new Vuex.Store({
         video: 'https://codevids.azureedge.net/videos/settings-sync.mp4'
       },
       {
-        title: 'Launch Configurations',
-        body:
-          '<p>VS Code can launch and attach the debugger across multiple processes. This is called a "Compound Launch Configuration". This is useful when dealing with a font-end heavy application that contains both a server comonent and some sort of built-in development server (such as Webpack) which is hanlding live-reloads.</p><p>This video uses the following launch configuration to debug both an application that has both server (Express) and front-end (React) components and uses the following launch configuration (launch.json).</p><pre><code class="language-javascript">{\n  "compounds": [\n    {\n      "name": "Launch Browser/Server",\n      "configurations": ["Launch Browser", "Launch Server"] \n    }\n  ],\n  "configurations": [\n    {\n      "type": "chrome",\n      "request": "launch",\n      "name": "Launch Browser",\n      "url": "http://localhost:3000",\n      "webRoot": "${workspaceRoot}/src"\n    },\n    {\n      "type": "node",\n      "request": "launch",\n      "name": "Launch Server",\n      "program": "${workspaceRoot}/server/server.js"\n    }\n  ]\n}</code></pre><p>Note: you need to have the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger For Chrome</a> extension installed to debug applications running in Chrome.</p>',
-        video:
-          'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4'
-      },
-      {
         title: 'Deployment',
         body:
           '<p>VS Code can deploy applications directly to Azure with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice">Azure App Service Tools</a> extension. The extension creates the site via a wizard and then generates a shell script which automates the CLI commands to check code into Git and then pull into Azure.</p><p>When using AppService for Linux,<code>npm install</code> and <code>npm start</code> are run automatically by Azure.</p>',
@@ -119,4 +115,4 @@ export const store = new Vuex.Store({
       }
     ]
   }
-})
+});
