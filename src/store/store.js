@@ -18,7 +18,7 @@ export const store = new Vuex.Store({
         body:
           '<p>Emmet is a markup expansion tool that makes writing HTML much easier. It has a simple syntax and is not difficult to master. VS Code supports Emmet by default.</p><p>Refer to the <a class="has-text-weight-bold" href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a> to learn more about the Emmet syntax.</p>',
         video: 'https://www.youtube.com/embed/e1zhJjM4p0k',
-        ctaTarget: 'https://youtu.be/8Ry05EZ7Y4o'
+        ctaTarget: 'https://cda.ms/qb'
       },
       {
         title: 'Wrap Individual Lines',
@@ -40,47 +40,46 @@ export const store = new Vuex.Store({
         title: 'Font Ligatures',
         body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code",
       "editor.fontLigatures": true</code></pre>`,
-        video: 'https://www.youtube.com/embed/KI6m_B1f8jc'
+        video: 'https://www.youtube.com/embed/KI6m_B1f8jc',
+        ctaTarget: ''
       },
       {
-        title: 'Interactive Playground',
+        title: 'Bracket Pair Colorizer',
         body:
-          '<p>Visible the first time VS Code is opened for a project. Get back to it at any time by selecting "Welcome" from the Command Pallete.</p>',
-        video: 'https://www.youtube.com/embed/x6Nxh53NEG0'
+          '<p>When you have a lot of brackets, brances and parenthesis, it can get hard to see where a block of code opens and closes. The Bracket Pair Colorizer extension for VS Code makes corresponding brackets, braces and parenthesis the same color.</p>',
+        video: 'https://www.youtube.com/embed/qmiRGlw-uGI',
+        ctaTarget: 'https://cda.ms/pN'
       },
       {
         title: 'JavaScript Type Checking',
         body:
           '<p>Use TypeScript to check your plain JavaScript code by adding a <code>//@ts-check</code> to the top of the file.</p><p> To enable the setting globally across your entire project, add the following line to your <b>User Preferences</b> (<code>⌘ + ,</code>)...</p><pre><code class="language-javascript">"javascript.implicitProjectConfig.checkJs": true  </code></pre><p>Drop a <code>.tsconfig</code> file in your project to control specific TypeScript checking features.</p>',
-        video: 'https://www.youtube.com/embed/WOW-BQIcHzs'
+        video: 'https://www.youtube.com/embed/WOW-BQIcHzs',
+        ctaTarget:
+          'https://code.visualstudio.com/docs/languages/javascript#_type-checking-and-quick-fixes-for-javascript-files?WT.mc_id=vscodecandothat-dotcom-buhollan'
       },
       {
         title: 'JSON Intellisense',
         body:
           '<p>Intellisense is provided in JSON files. This works not only in the User Preferences file, but also in package.json files allowing you to see the current version of any npm package as you import it.</p><p>Use <code>Ctrl + Spacebar</code> to trigger intellisense at any time.</p>',
-        video: 'https://www.youtube.com/embed/dtEjjHLGL5U'
+        video: 'https://www.youtube.com/embed/dtEjjHLGL5U',
+        ctaTarget:
+          'https://code.visualstudio.com/docs/languages/json?WT.mc_id=vscodecandothat-dotcom-buhollan'
       },
       {
-        title: 'Debugging',
+        title: 'Node.js Debugging',
         body:
           '<p>Run and debug any JavaScript file without any launch configuration. VS Code also has support for advanced debugging functionality, such as breakpoint expressions and column breakpoints.</p>',
         video: 'https://www.youtube.com/embed/beNIDKgdzwQ',
         ctaTarget: 'https://www.youtube.com/video/4Me2IOS3MFE'
       },
       {
-        title: 'Launch Configurations',
+        title: 'Debugging Browser Apps',
         body:
-          '<p>VS Code can launch and attach the debugger across multiple processes. This is called a "Compound Launch Configuration". This is useful when dealing with a font-end heavy application that contains both a server comonent and some sort of built-in development server (such as Webpack) which is hanlding live-reloads.</p><p>This video uses the following launch configuration to debug both an application that has both server (Express) and front-end (React) components and uses the following launch configuration (launch.json).</p><pre><code class="language-javascript">{\n  "compounds": [\n    {\n      "name": "Launch Browser/Server",\n      "configurations": ["Launch Browser", "Launch Server"] \n    }\n  ],\n  "configurations": [\n    {\n      "type": "chrome",\n      "request": "launch",\n      "name": "Launch Browser",\n      "url": "http://localhost:3000",\n      "webRoot": "${workspaceRoot}/src"\n    },\n    {\n      "type": "node",\n      "request": "launch",\n      "name": "Launch Server",\n      "program": "${workspaceRoot}/server/server.js"\n    }\n  ]\n}</code></pre><p>Note: you need to have the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger For Chrome</a> extension installed to debug applications running in Chrome.</p>',
+          '<p>Applications running in the browser can also be debugged in VS Code. These would be applications running on frameworks like <a href="">Angular</a>, <a href="">React</a>, <a href="">Vue</a> or others. This is facilitated by VS Code Launch Configurations.</p>',
         video:
           'https://codevids.azureedge.net/videos/debug-multiple-processes.mp4',
         ctaTarget: 'https://www.youtube.com/video/4Me2IOS3MFE'
-      },
-      {
-        title: 'Terminals',
-        body:
-          '<p>VS Code has a powerful built-in terminal featuring support for multiple terminal instances and high performance rendering. It also provides convenient access to the system termainal at any time with the <code>Ctr/Cmd + Shift + C</code> keyboard shortcut.</p>',
-        video: 'https://www.youtube.com/embed/Y7ZqDrIv--c',
-        ctaTarget: ''
       },
       {
         title: 'Cosmos DB / Mongo DB',
@@ -99,13 +98,24 @@ export const store = new Vuex.Store({
         title: 'Docker',
         body:
           '<p>VS Code can configure, build, deploy, manage and even debug Docker containers with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker">Docker</a> extension.</p>',
-        video: 'https://codecandothat.azureedge.net/videos/docker.mp4'
+        video: 'https://www.youtube.com/embed/6KQprxAm7dk?rel=0B06f959Wrdc',
+        ctaTarget: ''
       },
       {
         title: 'Settings Sync',
         body:
           '<p>Use the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync">Settings Sync</a> extension to synchronize your theme, user preferences and installed plugins across installations of VS Code. Note that these instances do not have to be on the same machine. In fact, you can share your exact setup of VS Code with a friend or collegue simply by publishing your settings publically and sending them the ID.</p><p>Note that this is paticularly useful for keeping VS Code stable and the Insiders Build in sync.</p>',
-        video: 'https://codevids.azureedge.net/videos/settings-sync.mp4'
+        video: 'https://www.youtube.com/embed/6KQprxAm7dk?rel=zpTq99ZBwQ0',
+        ctaTarget:
+          'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&WT.mc_id=vscodecandothat-dotcom-buhollan'
+      },
+      {
+        title: 'Log Points',
+        body:
+          '<p>Log Points allow you to log information out from your application, similar to the way `console.log` works. The difference is that they can be added or removed while the application is running without pausing execution.</p>',
+        video: 'https://www.youtube.com/embed/wjzLskBdudw?rel=0',
+        ctaTarget:
+          'https://code.visualstudio.com/docs/editor/debugging#_log-points?WT.mc_id=vscodecandothat-dotcom-buhollan'
       },
       {
         title: 'Deployment',
