@@ -82,6 +82,14 @@ export const store = new Vuex.Store({
         ctaTarget: 'https://www.youtube.com/video/4Me2IOS3MFE'
       },
       {
+        title: 'Log Points',
+        body:
+          '<p>Log Points allow you to log information out from your application, similar to the way `console.log` works. The difference is that they can be added or removed while the application is running without pausing execution.</p>',
+        video: 'https://www.youtube.com/embed/wjzLskBdudw?rel=0',
+        ctaTarget:
+          'https://code.visualstudio.com/docs/editor/debugging#_log-points?WT.mc_id=vscodecandothat-dotcom-buhollan'
+      },
+      {
         title: 'Cosmos DB / Mongo DB',
         body:
           '<p>The Cosmos DB extension for VS Code puts Mongo DB database access right inside of the editor.</p>',
@@ -92,30 +100,22 @@ export const store = new Vuex.Store({
         title: 'Bookmarks',
         body:
           '<p>Bookmarks is an extension you can use to easily mark your place in your file. A blue bookmark icon will appear in the sidebar and you can traverse the file with some quickkeys</p><p>Command + option + K creates a bookmark, and command + option + J jumps between existing marks.</p>',
-        video: ''
+        video: 'https://www.youtube.com/embed/0B06f959Wrdc?rel=0'
       },
       {
         title: 'Docker',
         body:
           '<p>VS Code can configure, build, deploy, manage and even debug Docker containers with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker">Docker</a> extension.</p>',
-        video: 'https://www.youtube.com/embed/6KQprxAm7dk?rel=0B06f959Wrdc',
+        video: 'https://www.youtube.com/embed/B06f959Wrdc?rel=0',
         ctaTarget: ''
       },
       {
         title: 'Settings Sync',
         body:
           '<p>Use the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync">Settings Sync</a> extension to synchronize your theme, user preferences and installed plugins across installations of VS Code. Note that these instances do not have to be on the same machine. In fact, you can share your exact setup of VS Code with a friend or collegue simply by publishing your settings publically and sending them the ID.</p><p>Note that this is paticularly useful for keeping VS Code stable and the Insiders Build in sync.</p>',
-        video: 'https://www.youtube.com/embed/6KQprxAm7dk?rel=zpTq99ZBwQ0',
+        video: 'https://www.youtube.com/embed/zpTq99ZBwQ0?rel=0',
         ctaTarget:
           'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&WT.mc_id=vscodecandothat-dotcom-buhollan'
-      },
-      {
-        title: 'Log Points',
-        body:
-          '<p>Log Points allow you to log information out from your application, similar to the way `console.log` works. The difference is that they can be added or removed while the application is running without pausing execution.</p>',
-        video: 'https://www.youtube.com/embed/wjzLskBdudw?rel=0',
-        ctaTarget:
-          'https://code.visualstudio.com/docs/editor/debugging#_log-points?WT.mc_id=vscodecandothat-dotcom-buhollan'
       },
       {
         title: 'Deployment',
