@@ -68,7 +68,7 @@ section {
 }
 
 .sectioncontain {
-  max-width: 1000px;
+  max-width: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,7 +106,7 @@ pre {
   overflow: scroll;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1300px) {
   .sectioncontain {
     padding: 0 70px;
   }
