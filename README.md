@@ -4,7 +4,7 @@
 
 ## Article
 
-If you'd like to read more about what VS Code can do, Burke Holland has [written an article](http://localhost:8080) on Smashing Magazine.
+If you'd like to read more about what VS Code can do, Burke Holland has [written an article](https://www.smashingmagazine.com/2018/01/visual-studio-code/) on Smashing Magazine.
 
 ## Credits
 
