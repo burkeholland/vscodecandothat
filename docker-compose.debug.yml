@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  vscodecandothat:
+    image: vscodecandothat
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000

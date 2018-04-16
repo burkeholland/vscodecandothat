@@ -3,7 +3,7 @@
 .AppleDouble
 .LSOverride
 
-# Icon must end with two 
+# Icon must end with two
 Icon
 # Thumbnails
 ._*
@@ -70,3 +70,5 @@ jspm_packages
 
 # Yarn Integrity file
 .yarn-integrity
+
+dist
