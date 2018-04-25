@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <app-banner />
     <app-masthead />
     <app-section
       v-for="(d, i) in info"
@@ -16,11 +17,13 @@
 <script>
 import AppSection from './components/AppSection'
 import AppMasthead from './components/AppMasthead'
+import AppBanner from './components/AppBanner';
 
 export default {
   components: {
     AppSection,
-    AppMasthead
+    AppMasthead,
+    AppBanner
   },
   computed: {
     info() {
