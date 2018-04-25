@@ -6,13 +6,7 @@ RUN apk add --no-cache nginx
 
 WORKDIR /app
 
-COPY package.json .
-RUN yarn install
-
+COPY dist/ /app/
 COPY misc/nginx.conf /etc/nginx/nginx.conf
-
-COPY . .
-
-RUN yarn run build
 
 CMD ["nginx"]
