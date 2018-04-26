@@ -59,7 +59,7 @@ export const store = new Vuex.Store({
           '<p>Use TypeScript to check your plain JavaScript code by adding a <code>//@ts-check</code> to the top of the file.</p><p> To enable the setting globally across your entire project, add the following line to your <b>User Preferences</b> (<code>⌘ + ,</code>)...</p><pre><code class="language-javascript">"javascript.implicitProjectConfig.checkJs": true  </code></pre><p>Drop a <code>.tsconfig</code> file in your project to control specific TypeScript checking features.</p>',
         video: 'https://www.youtube.com/embed/WOW-BQIcHzs',
         ctaTarget:
-          'https://code.visualstudio.com/docs/languages/javascript#_type-checking-and-quick-fixes-for-javascript-files?WT.mc_id=vscodecandothat-dotcom-buhollan'
+          'https://code.visualstudio.com/docs/languages/javascript#_type-checking-and-quick-fixes-for-javascript-files?WT.mc_id=vscodecandothat-dotcom'
       },
       {
         title: 'JSON Intellisense',
@@ -110,7 +110,7 @@ export const store = new Vuex.Store({
       {
         title: 'Docker',
         body:
-          '<p>VS Code can configure, build, deploy, manage and even debug Docker containers with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker">Docker</a> extension.</p>',
+          '<p>VS Code can configure, build, deploy, manage and even debug Docker containers with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&WT.mc_id=vscodecandothat-dotcom">Docker</a> extension.</p>',
         video: 'https://www.youtube.com/embed/B06f959Wrdc?rel=0',
         ctaTarget:
           'https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker&WT.mc_id=vscodecandothat-dotcom'
@@ -118,7 +118,7 @@ export const store = new Vuex.Store({
       {
         title: 'Settings Sync',
         body:
-          '<p>Use the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync">Settings Sync</a> extension to synchronize your theme, user preferences and installed plugins across installations of VS Code. Note that these instances do not have to be on the same machine. In fact, you can share your exact setup of VS Code with a friend or collegue simply by publishing your settings publically and sending them the ID.</p><p>Note that this is paticularly useful for keeping VS Code stable and the Insiders Build in sync.</p>',
+          '<p>Use the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&WT.mc_id=vscodecandothat-dotcom">Settings Sync</a> extension to synchronize your theme, user preferences and installed plugins across installations of VS Code. Note that these instances do not have to be on the same machine. In fact, you can share your exact setup of VS Code with a friend or collegue simply by publishing your settings publically and sending them the ID.</p><p>Note that this is paticularly useful for keeping VS Code stable and the Insiders Build in sync.</p>',
         video: 'https://www.youtube.com/embed/zpTq99ZBwQ0?rel=0',
         ctaTarget:
           'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&WT.mc_id=vscodecandothat-dotcom'
@@ -126,10 +126,18 @@ export const store = new Vuex.Store({
       {
         title: 'Deployment',
         body:
-          '<p>VS Code can deploy applications directly to Azure with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice">Azure App Service Tools</a> extension. The extension creates the site via a wizard and then generates a shell script which automates the CLI commands to check code into Git and then pull into Azure.</p><p>When using AppService for Linux,<code>npm install</code> and <code>npm start</code> are run automatically by Azure.</p>',
+          '<p>VS Code can deploy applications directly to Azure with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=vscodecandothat-dotcom">Azure App Service Tools</a> extension. The extension creates the site via a wizard and then generates a shell script which automates the CLI commands to check code into Git and then pull into Azure.</p><p>When using AppService for Linux,<code>npm install</code> and <code>npm start</code> are run automatically by Azure.</p>',
         video: 'https://www.youtube.com/embed/xyN86KJ6RKs?rel=0',
         ctaTarget:
           'https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=vscodecandothat-dotcom'
+      },
+      {
+        title: 'Image Preview',
+        body:
+          '<p>The <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview">Image Preview</a> extension provides inline previews for images included HTML file types. The extension shows a pop-up window in the editor surface, and an optional image preview in the gutter, which can be toggled on or off in User Settings.</p>',
+        video: 'https://www.youtube.com/embed/PzlZHmKHXBc?rel=0',
+        ctaTarget:
+          'https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview'
       }
     ]
   }

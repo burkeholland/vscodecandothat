@@ -1,5 +1,5 @@
 <template>
-  <div id="banner" data-ci="true">
+  <div id="banner">
     <p><b>VS Code Can Do That</b> workshop : May 16th</p>
     <h4 class="subtitle"><a href="https://workshop.me/2018-05-vscode?a=burke">Register today </a>for a 10% discount</h4>
   </div>
