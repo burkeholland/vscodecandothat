@@ -24,7 +24,7 @@ export const store = new Vuex.Store({
       {
         title: 'Wrap Individual Lines',
         body:
-          "<p>Wrap any text with a tag. This box also supports Emmet.</p><p>If you have multiple lines that all need to be wrapped in separate tags, use the<code>*</code> symbol.</p><p>A good idea is to add a keyboard shortcut for this as it's particularly useful for wrapping links with anchor.I have this mapped to <code>Option + Shift + W</code> in my setup. tags.</p>",
+          "<p>Wrap any text with a tag. This box also supports Emmet.</p><p>If you have multiple lines that all need to be wrapped in separate tags, use the<code>*</code> symbol.</p><p>A good idea is to add a keyboard shortcut for this as it's parzticularly useful for wrapping links with anchor.I have this mapped to <code>Option + Shift + W</code> in my setup. tags.</p>",
         video: 'https://www.youtube.com/embed/iJ068939sLw',
         ctaTarget: 'https://youtu.be/8Ry05EZ7Y4o?t=3m36s'
       },
@@ -137,7 +137,15 @@ export const store = new Vuex.Store({
           '<p>The <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview">Image Preview</a> extension provides inline previews for images included HTML file types. The extension shows a pop-up window in the editor surface, and an optional image preview in the gutter, which can be toggled on or off in User Settings.</p>',
         video: 'https://www.youtube.com/embed/PzlZHmKHXBc?rel=0',
         ctaTarget:
-          'https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview'
+          'https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview&WT.mc_id=vscodecandothat-dotcom'
+      },
+      {
+        title: 'CSS Preview',
+        body:
+          '<p>VS Code will automatically show a selector in CSS when you hover over your selectors. It uses a visual representation of the markup that will be selected by the CSS to make it easier to compose your rules with confidence.</p>',
+        video: 'https://www.youtube.com/embed/5_M2fEhqe3Y?rel=0',
+        ctaTarget:
+          'https://code.visualstudio.com/docs/languages/css?WT.mc_id=vscodecandothat-dotcom'
       }
     ]
   }
