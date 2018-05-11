@@ -146,6 +146,14 @@ export const store = new Vuex.Store({
         video: 'https://www.youtube.com/embed/5_M2fEhqe3Y?rel=0',
         ctaTarget:
           'https://code.visualstudio.com/docs/languages/css?WT.mc_id=vscodecandothat-dotcom'
+      },
+      {
+        title: 'Inline File / Folder Nesting',
+        body:
+          '<p>This tip is brought to you by <a href="https://twitter.com/ChendrayanV">ChendrayanV</a></p><p>Create nested file and folder structures inline in the File Explorer by specifying a relative path. This works for both new files/folders and editing ones that already exist.',
+        video: 'https://www.youtube.com/embed/UAIp1gMcMKo?rel=0',
+        ctaTarget:
+          'https://code.visualstudio.com/docs/getstarted/userinterface?WT.mc_id=vscodecandothat-dotcom'
       }
     ]
   }
