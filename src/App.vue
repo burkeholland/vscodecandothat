@@ -16,15 +16,11 @@
 <script>
 import AppSection from './components/AppSection';
 import AppMasthead from './components/AppMasthead';
-import AppBanner from './components/AppBanner';
-import AppHighlights from './components/AppHighlights';
 
 export default {
   components: {
     AppSection,
-    AppMasthead,
-    AppBanner,
-    AppHighlights
+    AppMasthead
   },
   computed: {
     info() {
