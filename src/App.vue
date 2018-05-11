@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <app-banner />
     <app-masthead />
     <app-section
       v-for="(d, i) in info"
@@ -15,22 +14,24 @@
 </template>
 
 <script>
-import AppSection from './components/AppSection'
-import AppMasthead from './components/AppMasthead'
+import AppSection from './components/AppSection';
+import AppMasthead from './components/AppMasthead';
 import AppBanner from './components/AppBanner';
+import AppHighlights from './components/AppHighlights';
 
 export default {
   components: {
     AppSection,
     AppMasthead,
-    AppBanner
+    AppBanner,
+    AppHighlights
   },
   computed: {
     info() {
-      return this.$store.state.info
+      return this.$store.state.info;
     }
   }
-}
+};
 </script>
 
 <style>
