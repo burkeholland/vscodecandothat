@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import AppSection from './components/AppSection';
-import AppMasthead from './components/AppMasthead';
+import AppSection from './components/AppSection'
+import AppMasthead from './components/AppMasthead'
 
 export default {
   components: {
@@ -24,10 +24,10 @@ export default {
   },
   computed: {
     info() {
-      return this.$store.state.info;
+      return this.$store.state.info
     }
   }
-};
+}
 </script>
 
 <style>
@@ -98,6 +98,9 @@ body {
   padding: 0;
   line-height: 1.4em;
   font-size: 18px;
+}
+
+#app {
   overflow-x: hidden;
 }
 

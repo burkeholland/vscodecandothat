@@ -49,4 +49,16 @@ h4 {
   margin: 5px;
   text-align: right;
 }
+
+@media screen and (max-width: 700px) {
+  h1 {
+    line-height: 2em;
+    margin-top: -20px;
+    margin-bottom: -20px;
+  }
+
+  .bottomtag {
+    font-size: 14px;
+  }
+}
 </style>
