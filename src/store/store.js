@@ -40,7 +40,7 @@ export const store = new Vuex.Store({
       },
       {
         title: 'Font Ligatures',
-        body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Preferences...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code",
+        body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Settings file...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code",
       "editor.fontLigatures": true</code></pre>`,
         video: 'https://www.youtube.com/embed/KI6m_B1f8jc',
         ctaTarget: ''
@@ -150,10 +150,17 @@ export const store = new Vuex.Store({
       {
         title: 'Inline File / Folder Nesting',
         body:
-          '<p>This tip is brought to you by <a href="https://twitter.com/ChendrayanV">ChendrayanV</a></p><p>Create nested file and folder structures inline in the File Explorer by specifying a relative path. This works for both new files/folders and editing ones that already exist.',
+          '<p>This tip is brought to you by <a href="https://twitter.com/ChendrayanV">@ChendrayanV</a></p><p>Create nested file and folder structures inline in the File Explorer by specifying a relative path. This works for both new files/folders and editing ones that already exist.',
         video: 'https://www.youtube.com/embed/UAIp1gMcMKo?rel=0',
         ctaTarget:
           'https://code.visualstudio.com/docs/getstarted/userinterface?WT.mc_id=vscodecandothat-dotcom'
+      },
+      {
+        title: 'NPM Script Explorer',
+        body: `<p>This tip is brought to you by <a href="https://twitter.com/_clarkio">Brian Clark</a></p><p>View and run all of the available npm scripts in your package.json file by enabling the NPM Scripts viewlet. Add the following line to your User Settings file...</p><pre v-highlightjs><code class="javascript">"npm.enableScriptExplorer": true</code></pre>`,
+        video: 'https://www.youtube.com/embed/3xJ7W_r24gk?rel=0',
+        ctaTarget:
+          'https://code.visualstudio.com/updates/v1_23?WT.mc_id=vscodecandothat-dotcom'
       }
     ]
   }
