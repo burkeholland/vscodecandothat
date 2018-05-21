@@ -19,7 +19,7 @@ export const store = new Vuex.Store({
           '<p>Emmet is a markup expansion tool that makes writing HTML much easier. It has a simple syntax and is not difficult to master. VS Code supports Emmet by default.</p><p>Refer to the <a class="has-text-weight-bold" href="https://docs.emmet.io/cheat-sheet/">Emmet Cheat Sheet</a> to learn more about the Emmet syntax.</p>',
         video: 'https://www.youtube.com/embed/e1zhJjM4p0k',
         ctaTarget:
-          'https://code.visualstudio.com/docs/editor/emmet?WT.mc_id=vscodecandothat-dotcom'
+          'https://code.visualstudio.com/docs/editor/emmet?WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Wrap Individual Lines',
@@ -36,7 +36,7 @@ export const store = new Vuex.Store({
 "editor.formatOnSave": true</code></pre>`,
         video: 'https://www.youtube.com/embed/GP9mTqCeoi4',
         ctaTarget:
-          'https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&WT.mc_id=vscodecandothat-dotcom'
+          'https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Font Ligatures',
@@ -51,7 +51,7 @@ export const store = new Vuex.Store({
           '<p>When you have a lot of brackets, brances and parenthesis, it can get hard to see where a block of code opens and closes. The Bracket Pair Colorizer extension for VS Code makes corresponding brackets, braces and parenthesis the same color.</p>',
         video: 'https://www.youtube.com/embed/qmiRGlw-uGI',
         ctaTarget:
-          'https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer&WT.mc_id=vscodecandothat-dotcom'
+          'https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer&WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'JavaScript Type Checking',
@@ -59,7 +59,7 @@ export const store = new Vuex.Store({
           '<p>Use TypeScript to check your plain JavaScript code by adding a <code>//@ts-check</code> to the top of the file.</p><p> To enable the setting globally across your entire project, add the following line to your <b>User Preferences</b> (<code>⌘ + ,</code>)...</p><pre><code class="language-javascript">"javascript.implicitProjectConfig.checkJs": true  </code></pre><p>Drop a <code>.tsconfig</code> file in your project to control specific TypeScript checking features.</p>',
         video: 'https://www.youtube.com/embed/WOW-BQIcHzs',
         ctaTarget:
-          'https://code.visualstudio.com/docs/languages/javascript#_type-checking-and-quick-fixes-for-javascript-files?WT.mc_id=vscodecandothat-dotcom'
+          'https://code.visualstudio.com/docs/languages/javascript#_type-checking-and-quick-fixes-for-javascript-files?WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'JSON Intellisense',
@@ -67,7 +67,7 @@ export const store = new Vuex.Store({
           '<p>Intellisense is provided in JSON files. This works not only in the User Preferences file, but also in package.json files allowing you to see the current version of any npm package as you import it.</p><p>Use <code>Ctrl + Spacebar</code> to trigger intellisense at any time.</p>',
         video: 'https://www.youtube.com/embed/dtEjjHLGL5U',
         ctaTarget:
-          'https://code.visualstudio.com/docs/languages/json?WT.mc_id=vscodecandothat-dotcom'
+          'https://code.visualstudio.com/docs/languages/json?WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Node.js Debugging',
@@ -82,7 +82,7 @@ export const store = new Vuex.Store({
           '<p>Applications running in the browser can also be debugged in VS Code. These would be applications running on frameworks like <a href="">Angular</a>, <a href="">React</a>, <a href="">Vue</a> or others. This is facilitated by VS Code Launch Configurations.</p>',
         video: 'https://www.youtube.com/embed/DFvv2i8Da6k',
         ctaTarget:
-          'https://code.visualstudio.com/blogs/2016/02/23/introducing-chrome-debugger-for-vs-code?WT.mc_id=vscodecandothat-dotcom'
+          'https://code.visualstudio.com/blogs/2016/02/23/introducing-chrome-debugger-for-vs-code?WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Log Points',
@@ -90,7 +90,7 @@ export const store = new Vuex.Store({
           '<p>Log Points allow you to log information out from your application, similar to the way `console.log` works. The difference is that they can be added or removed while the application is running without pausing execution.</p>',
         video: 'https://www.youtube.com/embed/wjzLskBdudw?rel=0',
         ctaTarget:
-          'https://code.visualstudio.com/docs/editor/debugging#_log-points?WT.mc_id=vscodecandothat-dotcom'
+          'https://code.visualstudio.com/docs/editor/debugging#_log-points?WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Cosmos DB / Mongo DB',
@@ -105,39 +105,39 @@ export const store = new Vuex.Store({
           '<p>Bookmarks is an extension you can use to easily mark your place in your file. A blue bookmark icon will appear in the sidebar and you can traverse the file with some quickkeys</p><p>Command + option + K creates a bookmark, and command + option + J jumps between existing marks.</p>',
         video: 'https://www.youtube.com/embed/XHX-9Zhk0VI?rel=0',
         ctaTarget:
-          'https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks&WT.mc_id=vscodecandothat-dotcom'
+          'https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks&WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Docker',
         body:
-          '<p>VS Code can configure, build, deploy, manage and even debug Docker containers with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&WT.mc_id=vscodecandothat-dotcom">Docker</a> extension.</p>',
+          '<p>VS Code can configure, build, deploy, manage and even debug Docker containers with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&WT.mc_id=vscodecandothat-dotcom-team">Docker</a> extension.</p>',
         video: 'https://www.youtube.com/embed/B06f959Wrdc?rel=0',
         ctaTarget:
-          'https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker&WT.mc_id=vscodecandothat-dotcom'
+          'https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker&WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Settings Sync',
         body:
-          '<p>Use the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&WT.mc_id=vscodecandothat-dotcom">Settings Sync</a> extension to synchronize your theme, user preferences and installed plugins across installations of VS Code. Note that these instances do not have to be on the same machine. In fact, you can share your exact setup of VS Code with a friend or collegue simply by publishing your settings publically and sending them the ID.</p><p>Note that this is paticularly useful for keeping VS Code stable and the Insiders Build in sync.</p>',
+          '<p>Use the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&WT.mc_id=vscodecandothat-dotcom-team">Settings Sync</a> extension to synchronize your theme, user preferences and installed plugins across installations of VS Code. Note that these instances do not have to be on the same machine. In fact, you can share your exact setup of VS Code with a friend or collegue simply by publishing your settings publically and sending them the ID.</p><p>Note that this is paticularly useful for keeping VS Code stable and the Insiders Build in sync.</p>',
         video: 'https://www.youtube.com/embed/zpTq99ZBwQ0?rel=0',
         ctaTarget:
-          'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&WT.mc_id=vscodecandothat-dotcom'
+          'https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync&WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Deployment',
         body:
-          '<p>VS Code can deploy applications directly to Azure with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=vscodecandothat-dotcom">Azure App Service Tools</a> extension. The extension creates the site via a wizard and then generates a shell script which automates the CLI commands to check code into Git and then pull into Azure.</p><p>When using AppService for Linux,<code>npm install</code> and <code>npm start</code> are run automatically by Azure.</p>',
+          '<p>VS Code can deploy applications directly to Azure with the <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=vscodecandothat-dotcom-team">Azure App Service Tools</a> extension. The extension creates the site via a wizard and then generates a shell script which automates the CLI commands to check code into Git and then pull into Azure.</p><p>When using AppService for Linux,<code>npm install</code> and <code>npm start</code> are run automatically by Azure.</p>',
         video: 'https://www.youtube.com/embed/xyN86KJ6RKs?rel=0',
         ctaTarget:
-          'https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=vscodecandothat-dotcom'
+          'https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice&WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Image Preview',
         body:
-          '<p>The <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview">Image Preview</a> extension provides inline previews for images included HTML file types. The extension shows a pop-up window in the editor surface, and an optional image preview in the gutter, which can be toggled on or off in User Settings.</p>',
+          '<p>The <a class="has-text-weight-bold" href="https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview&WT.mc_id=vscodecandothat-dotcom-team">Image Preview</a> extension provides inline previews for images included HTML file types. The extension shows a pop-up window in the editor surface, and an optional image preview in the gutter, which can be toggled on or off in User Settings.</p>',
         video: 'https://www.youtube.com/embed/PzlZHmKHXBc?rel=0',
         ctaTarget:
-          'https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview&WT.mc_id=vscodecandothat-dotcom'
+          'https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview&WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'CSS Preview',
@@ -145,7 +145,7 @@ export const store = new Vuex.Store({
           '<p>VS Code will automatically show a selector in CSS when you hover over your selectors. It uses a visual representation of the markup that will be selected by the CSS to make it easier to compose your rules with confidence.</p>',
         video: 'https://www.youtube.com/embed/5_M2fEhqe3Y?rel=0',
         ctaTarget:
-          'https://code.visualstudio.com/docs/languages/css?WT.mc_id=vscodecandothat-dotcom'
+          'https://code.visualstudio.com/docs/languages/css?WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'Inline File / Folder Nesting',
@@ -153,14 +153,14 @@ export const store = new Vuex.Store({
           '<p>This tip is brought to you by <a href="https://twitter.com/ChendrayanV">@ChendrayanV</a></p><p>Create nested file and folder structures inline in the File Explorer by specifying a relative path. This works for both new files/folders and editing ones that already exist.',
         video: 'https://www.youtube.com/embed/UAIp1gMcMKo?rel=0',
         ctaTarget:
-          'https://code.visualstudio.com/docs/getstarted/userinterface?WT.mc_id=vscodecandothat-dotcom'
+          'https://code.visualstudio.com/docs/getstarted/userinterface?WT.mc_id=vscodecandothat-dotcom-team'
       },
       {
         title: 'NPM Script Explorer',
         body: `<p>This tip is brought to you by <a href="https://twitter.com/_clarkio">Brian Clark</a></p><p>View and run all of the available npm scripts in your package.json file by enabling the NPM Scripts viewlet. Add the following line to your User Settings file...</p><pre v-highlightjs><code class="javascript">"npm.enableScriptExplorer": true</code></pre>`,
         video: 'https://www.youtube.com/embed/3xJ7W_r24gk?rel=0',
         ctaTarget:
-          'https://code.visualstudio.com/updates/v1_23?WT.mc_id=vscodecandothat-dotcom'
+          'https://code.visualstudio.com/updates/v1_23?WT.mc_id=vscodecandothat-dotcom-team'
       }
     ]
   }
