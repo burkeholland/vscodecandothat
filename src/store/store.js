@@ -161,6 +161,24 @@ export const store = new Vuex.Store({
         video: 'https://www.youtube.com/embed/3xJ7W_r24gk?rel=0',
         ctaTarget:
           'https://code.visualstudio.com/updates/v1_23?WT.mc_id=vscodecandothat-dotcom-team'
+      },
+      {
+        title: 'Toggle Activity Bar',
+        body: `<p>You might know that the Sidebar can be toggled with Cmd/Ctrl B. The ActivityBar can also be toggled to make even more room. The <a href="https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command&WT.mc_id=vscodecandothat-dotcom-team">Multi-Key Extension</a> allows for multiple commands to be bound to a single keystroke. This keystroke can then hide both the sidebar and the activity bar at the same time.</p><p>Add the following to your User Setings file...</p><pre v-highlightjs><code class="javascript">"multiCommand.commands": [
+  {
+    "command": "multiCommand.makeRoom",
+    "sequence": [
+      "workbench.action.toggleSidebarVisibility",
+      "workbench.action.toggleActivityBarVisibility"
+    ]
+  }
+]</code></pre><p>Then add a key binding to the <code>keybindings.json</code> file</p><pre v-highlightjs><code class="javascript">{
+  "key": "alt+b",
+  "command": "multiCommand.makeRoom"
+}</code></pre>`,
+        video: 'https://www.youtube.com/embed/tP5OjGV8owE?rel=0',
+        ctaTarget:
+          'https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command&WT.mc_id=vscodecandothat-dotcom-team'
       }
     ]
   }
