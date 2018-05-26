@@ -24,7 +24,7 @@ export const store = new Vuex.Store({
       {
         title: 'Wrap Individual Lines',
         body:
-          "<p>Wrap any text with a tag. This box also supports Emmet.</p><p>If you have multiple lines that all need to be wrapped in separate tags, use the<code>*</code> symbol.</p><p>A good idea is to add a keyboard shortcut for this as it's parzticularly useful for wrapping links with anchor.I have this mapped to <code>Option + Shift + W</code> in my setup. tags.</p>",
+          "<p>Wrap any text with a tag. This box also supports Emmet.</p><p>If you have multiple lines that all need to be wrapped in separate tags, use the<code>*</code> symbol.</p><p>A good idea is to add a keyboard shortcut for this as it's particularly useful for wrapping links with anchor.I have this mapped to <code>Option + Shift + W</code> in my setup. tags.</p>",
         video: 'https://www.youtube.com/embed/iJ068939sLw',
         ctaTarget: 'https://youtu.be/8Ry05EZ7Y4o?t=3m36s'
       },
