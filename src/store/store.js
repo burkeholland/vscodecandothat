@@ -179,7 +179,14 @@ export const store = new Vuex.Store({
         video: 'https://www.youtube.com/embed/tP5OjGV8owE?rel=0',
         ctaTarget:
           'https://marketplace.visualstudio.com/items?itemName=ryuta46.multi-command&WT.mc_id=vscodecandothat-dotcom-team'
+      },
+      {
+        title: 'Move Side Bar Right',
+        body: `<p>The code we write left-aligned by default. When the sidebar is on the left, expanding and collapsing it causes the jarring effect of moving the code in the viewport. Keeping the Side Bar on the right ensures that the viewport always stays the same.</p><p>The Side Bar in VS Code can be collapsed with ⌘/⌃ + B. It can be moved to the right-hand side by selecting 'View / Move Side Bar Right".</p>`,
+        video: 'https://www.youtube.com/embed/FCTXn5eLiUA?rel=0',
+        ctaTarget:
+          'https://code.visualstudio.com/docs/getstarted/userinterface?WT.mc_id=vscodecandothat-dotcom-team'
       }
     ]
-  }
+  },
 });
