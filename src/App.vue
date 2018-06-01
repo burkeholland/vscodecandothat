@@ -24,7 +24,7 @@ export default {
   },
   computed: {
     info() {
-      return this.$store.state.info
+      return this.$store.state.info.reverse();
     }
   }
 }
