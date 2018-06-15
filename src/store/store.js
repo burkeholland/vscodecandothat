@@ -7,6 +7,13 @@ export const store = new Vuex.Store({
   state: {
     info: [
       {
+        title: 'Refactor To ES6',
+        body: `<p>VS Code can refactor your JavaScript to ES6. It can update imports, convert prototype functions to ES6 classes and more. Anytime you see an ellipsis, you may be able to refactor that code. Check the lightbulb to find out.</p>`,
+        video: 'https://www.youtube.com/embed/Tr1VFqJVdPs?rel=0',
+        ctaTarget:
+          'https://code.visualstudio.com/updates/v1_22#_suggestion-code-actions-for-javascript-and-typescript?WT.mc_id=vscodecandothat-dotcom-team'
+      },
+      {
         title: 'Serverless',
         body: `<p>The Azure Functions extension for VS Code enables a full Serverless development experience in the editor. Create new projects and triggers locally, debug, manage Functions projects in Azure and setup deployments wthout ever leaving VS Code.</p>`,
         video: 'https://www.youtube.com/embed/0WE_wvimTO4?rel=0',
