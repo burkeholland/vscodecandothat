@@ -7,6 +7,13 @@ export const store = new Vuex.Store({
   state: {
     info: [
       {
+        title: 'Search User Settings',
+        body: `<p>There are over 400 settings in VS Code, and that doesn't include settings for extensions. VS Code uses a search AI that helps you find what you need, even if you aren't sure exactly what you're looking for. Just search settings the way that you would search the internet.</p>`,
+        video: 'https://www.youtube.com/embed/w8uoLUM-wQ4?rel=0',
+        ctaTarget:
+          'https://code.visualstudio.com/blogs/2018/04/25/bing-settings-search?WT.mc_id=vscodecandothat-dotcom-team'
+      },
+      {
         title: 'Refactor To ES6',
         body: `<p>VS Code can refactor your JavaScript to ES6. It can update imports, convert prototype functions to ES6 classes and more. Anytime you see an ellipsis, you may be able to refactor that code. Check the lightbulb to find out.</p>`,
         video: 'https://www.youtube.com/embed/Tr1VFqJVdPs?rel=0',
