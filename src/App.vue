@@ -9,6 +9,7 @@
       :video="d.video"
       :number="i"
       :ctaTarget="d.ctaTarget"
+      :hash="d.hash"
       class="dark" />
   </div>
 </template>
@@ -24,6 +25,10 @@ export default {
   },
   computed: {
     info() {
+      // compute the anchor hash for each title
+      this.$store.state.info.map(item => {
+        return (item.hash = item.title.toLowerCase().replace(/ /g, '-'));
+      });
       return this.$store.state.info;
     }
   }
@@ -86,6 +91,18 @@ export default {
       format('truetype'),
     url('./assets/Fonts/390c08bc-8d21-4af3-95a1-a73c21f189cd.svg#390c08bc-8d21-4af3-95a1-a73c21f189cd')
       format('svg');
+}
+@font-face {
+  font-family: 'fontello';
+  src: url('./assets/Fonts/fontello.eot?802126');
+  src: url('./assets/Fonts/fontello.eot?802126#iefix')
+      format('embedded-opentype'),
+    url('./assets/Fonts/fontello.woff2?802126') format('woff2'),
+    url('./assets/Fonts/fontello.woff?802126') format('woff'),
+    url('./assets/Fonts/fontello.ttf?802126') format('truetype'),
+    url('./assets/Fonts/fontello.svg?802126#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {

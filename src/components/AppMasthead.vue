@@ -5,12 +5,13 @@
     <div class="bottomtag">
       <h4>Hosted on <a href="">Azure App Service</a></h4>
       <h4>Brought to you by <a href="https://twitter.com/burkeholland" target="_blank">Burke Holland</a> and <a href="https://twitter.com/sarah_edo" target="_blank">Sarah Drasner</a></h4>
+      <a href="feed.xml"><button><i class="icon icon-rss"></i>RSS Feed</button></a>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style scoped>
@@ -49,6 +50,20 @@ h4 {
   margin: 5px;
   text-align: right;
 }
+
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'fontello';
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+}
+
+.icon-rss:before {
+  content: '\f09e';
+} /* '' */
 
 @media screen and (max-width: 700px) {
   h1 {

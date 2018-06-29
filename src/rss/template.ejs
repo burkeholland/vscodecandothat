@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>VS Code Can Do That?!?</title>
+    <link>https://vscodecandothat.com</link>
+    <description>All the best things about Visual Studio Code that nobody ever bothered to tell you.</description>
+    <% tips.forEach(tip => { %>
+      <item>
+        <title><%= tip.title %></title>
+        <link>https://vscodecandothat.com#<%= tip.title.toLowerCase().replace(/ /g, '-'); %></link>
+        <description><%= tip.body %></description>
+      </item>
+      <% }) %>
+  </channel>
+</rss>

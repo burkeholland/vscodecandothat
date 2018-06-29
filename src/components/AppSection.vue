@@ -1,9 +1,12 @@
 <template>
   <section>
+    <a :id="hash" class="hidden-anchor" aria-hidden="true"></a>
     <div class="sectioncontain">
       <div class="info">
         <div class="num">{{ number | numFormat }}</div>
-        <h2>{{ title }}</h2>
+        <h2>
+          <a class="anchor" aria-hidden="true" :href="'#' + hash">{{ title }}</a>
+        </h2>
         <div v-html="body"></div>
         <a :href="ctaTarget"><button>{{ cta }}</button></a>
       </div>
@@ -35,6 +38,9 @@ export default {
       type: Number
     },
     video: {
+      type: String
+    },
+    hash: {
       type: String
     }
   },
@@ -77,6 +83,10 @@ section {
 
 h2 {
   padding-left: 40px;
+}
+
+h2 .anchor {
+  color: white;
 }
 
 .info,
