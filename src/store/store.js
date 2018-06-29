@@ -7,6 +7,13 @@ export const store = new Vuex.Store({
   state: {
     info: [
       {
+        title: 'Version Lense',
+        body: `<p>This tip is brought to you by <a href="https://twitter.com/elijahmanor">Elijah Manor</a>.</p><p>Easily see what npm packages are out of date with the <a href="https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens&WT.mc_id=vscodecandothat-dotcom-team">Version Lense</a> plugin. Toggle errors and warnings on and off as well as updating to the latest available version of a package.</p>`,
+        video: 'https://www.youtube.com/embed/aOEmu-9y5ak?rel=0',
+        ctaTarget:
+          'https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens&WT.mc_id=vscodecandothat-dotcom-team'
+      },
+      {
         title: 'Search User Settings',
         body: `<p>There are over 400 settings in VS Code, and that doesn't include settings for extensions. VS Code uses a search AI that helps you find what you need, even if you aren't sure exactly what you're looking for. Just search settings the way that you would search the internet.</p>`,
         video: 'https://www.youtube.com/embed/w8uoLUM-wQ4?rel=0',
