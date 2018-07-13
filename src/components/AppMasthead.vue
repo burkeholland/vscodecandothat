@@ -2,10 +2,16 @@
   <div class="mastheadcontain">
     <h1>VS Code can do that?!</h1>
     <h3>All the best things about Visual Studio Code that nobody ever bothered to tell you</h3>
-    <div class="bottomtag">
-      <h4>Hosted on <a href="">Azure App Service</a></h4>
-      <h4>Brought to you by <a href="https://twitter.com/burkeholland" target="_blank">Burke Holland</a> and <a href="https://twitter.com/sarah_edo" target="_blank">Sarah Drasner</a></h4>
-      <a href="feed.xml"><button><i class="icon icon-rss"></i>RSS Feed</button></a>
+    <div class="mastheadbottom">
+      <div class="videoplaylist">
+        <h5>VS Code Release Highlights Video:</h5>
+        <iframe height="150px" src="https://www.youtube.com/embed/videoseries?list=PLG8WGLcszzgWgVzAS1IS2sJJ5ewdb-DEo" allowfullscreen webkitallowfullscreen mozallowfullscreen style="position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px;"  frameborder=0></iframe>
+      </div>
+      <div class="rssmessage">
+        <h4>Hosted on <a href="">Azure App Service</a></h4>
+        <h4>Brought to you by <a href="https://twitter.com/burkeholland" target="_blank">Burke Holland</a> and <a href="https://twitter.com/sarah_edo" target="_blank">Sarah Drasner</a></h4>
+        <a href="feed.xml"><button><i class="icon icon-rss"></i>RSS Feed</button></a>
+      </div>
     </div>
   </div>
 </template>
@@ -16,10 +22,11 @@ export default {};
 
 <style scoped>
 .mastheadcontain {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 250px;
-  background: url('./../assets/feature-logo.png') bottom right no-repeat,
-    #212121;
+  background: url('./../assets/feature-logo.png') bottom right no-repeat, #212121;
   background-size: 70%;
   padding: 12vmin 0;
   position: relative;
@@ -28,25 +35,49 @@ export default {};
 h1 {
   font-size: 40px;
   padding-left: 50px;
+  margin-top: 0px;
 }
 
 h3 {
   font-weight: normal;
-  margin-top: 40px;
+  margin-top: 0px;
   width: 50%;
   padding-left: 50px;
 }
 
-.bottomtag {
-  margin-top: 50px;
-  float: right;
+h5 {
+  margin-bottom: 5px;
+}
+
+.mastheadbottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px;
+  height: 150px;
+  margin: 0px;
+}
+
+.videoplaylist {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 50px;
+}
+
+.rssmessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: right;
   padding-right: 70px;
+  margin-top: 10px;
 }
 
 h4 {
-  font-family: 'AvenirNextLTW01-Italic', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'AvenirNextLTW01-Italic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 5px;
   text-align: right;
 }
@@ -69,11 +100,17 @@ h4 {
   h1 {
     line-height: 2em;
     margin-top: -20px;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
   }
 
-  .bottomtag {
+  .rssmessage {
     font-size: 14px;
+    padding-right: 30px;
+    margin: 10px;
+  }
+
+  .mastheadcontain {
+    height: 450px;
   }
 }
 </style>
