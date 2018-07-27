@@ -1,14 +1,8 @@
 module.exports = [{
-    title: 'Hide Open Editors',
-    body: `<p>The "Open Editors" section in the sidebar can be hidden to provide a cleaner view of your project files in the Explorer. Add the following line to your User Settings file to hide the "Open Editors" section.</p><p><pre v-highlightjs><code class="json">"explorer.openEditors.visible":0</code></pre></p>`,
-    video: 'https://www.youtube.com/embed/d1Tcp6EZMfY?rel=0',
-    ctaTarget: 'https://code.visualstudio.com/docs/getstarted/userinterface?WT.mc_id=vscodecandothat-dotcom-team'
-  },
-  {
-    title: 'Split Panes',
-    body: `<p>The editor panes in VS Code can be split horizontally, vertically and any combination of the two, which results in a grid-like layout. To split panes horizontally, use the splitter icon in the right corner. To split them vertically, press <code>option/alt</code> while you mouse over the splitter icon.</p>`,
-    video: 'https://www.youtube.com/embed/cu0EhndCkV8?rel=0',
-    ctaTarget: 'https://code.visualstudio.com/docs/getstarted/userinterface#_side-by-side-editing?WT.mc_id=vscodecandothat-dotcom-team'
+    title: 'Share your localhost',
+    body: `<p>VS Code <a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&WT.mc_id=vscodecandothat-dotcom-team">Live Share</a> enables you to share any TCP process on your computer with people who are currently connected to your Live Share session. Choose "Share Server" from the Command Palette and select a port to share.</p><p>Now they can access your localhost like it's their localhost.</p>`,
+    video: 'https://www.youtube.com/embed/7SAcu5xvvug?rel=0',
+    ctaTarget: 'https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&WT.mc_id=vscodecandothat-dotcom-team'
   },
   {
     title: 'JavaScript Scratch Pad',
@@ -52,8 +46,8 @@ module.exports = [{
 {
 "command": "multiCommand.makeRoom",
 "sequence": [
-  "workbench.action.toggleSidebarVisibility",
-  "workbench.action.toggleActivityBarVisibility"
+"workbench.action.toggleSidebarVisibility",
+"workbench.action.toggleActivityBarVisibility"
 ]
 }
 ]</code></pre><p>Then add a key binding to the <code>keybindings.json</code> file</p><pre v-highlightjs><code class="javascript">{
@@ -156,7 +150,7 @@ module.exports = [{
   {
     title: 'Font Ligatures',
     body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Settings file...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true</code></pre>`,
+"editor.fontLigatures": true</code></pre>`,
     video: 'https://www.youtube.com/embed/KI6m_B1f8jc',
     ctaTarget: ''
   },
