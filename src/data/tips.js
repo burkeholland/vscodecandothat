@@ -1,6 +1,6 @@
 module.exports = [{
     title: 'Share your localhost',
-    body: `<p>VS Code <a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&WT.mc_id=vscodecandothat-dotcom-team">Live Share</a> enables you to share any TCP process on your computer with people who are currently connected to your Live Share session. Choose "Share Server" from the Command Palette and select a port to share.</p><p>Now they can access your localhost like it's their localhost.</p>`,
+    body: `<p>This tip is brought to you by <a href="https://twitter.com/lostintangent">Jonathan Carter</a>.</p><p>VS Code <a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&WT.mc_id=vscodecandothat-dotcom-team">Live Share</a> enables you to share any TCP process on your computer with people who are currently connected to your Live Share session. Choose "Share Server" from the Command Palette and select a port to share. Now they can access your localhost like it's their localhost.</p>`,
     video: 'https://www.youtube.com/embed/7SAcu5xvvug?rel=0',
     ctaTarget: 'https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&WT.mc_id=vscodecandothat-dotcom-team'
   },
