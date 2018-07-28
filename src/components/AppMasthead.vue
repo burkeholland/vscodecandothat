@@ -109,6 +109,20 @@ h4 {
   content: '\f09e';
 } /* '' */
 
+@media screen and (min-width: 699px) and (max-width: 900px) {
+  .rssmessage { 
+    padding-right: 20px;
+    margin-bottom: -20px;
+    width: 40%;
+  }
+  .videoplaylist {
+    width: 40%;
+  }
+  .mastheadcontain {
+    height: 300px;
+  }
+}
+
 @media screen and (max-width: 700px) {
   h1 {
     line-height: 2em;
@@ -120,6 +134,7 @@ h4 {
     font-size: 14px;
     padding-right: 30px;
     margin: 10px;
+    line-height: 1.2;
   }
 
   .mastheadcontain {
