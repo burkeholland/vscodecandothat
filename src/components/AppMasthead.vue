@@ -5,12 +5,14 @@
     <div class="mastheadbottom">
       <div class="videoplaylist">
         <h5>VS Code Release Highlights Video:</h5>
-        <iframe height="150px" src="https://www.youtube.com/embed/videoseries?list=PLG8WGLcszzgWgVzAS1IS2sJJ5ewdb-DEo" allowfullscreen webkitallowfullscreen mozallowfullscreen style="position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px;"  frameborder=0></iframe>
+        <iframe height="140px" src="https://www.youtube.com/embed/videoseries?list=PLG8WGLcszzgWgVzAS1IS2sJJ5ewdb-DEo&showinfo=0" allowfullscreen webkitallowfullscreen mozallowfullscreen style="position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px;"  frameborder=0></iframe>
       </div>
       <div class="rssmessage">
         <h4>Hosted on <a href="">Azure App Service</a></h4>
         <h4>Brought to you by <a href="https://twitter.com/burkeholland" target="_blank">Burke Holland</a> and <a href="https://twitter.com/sarah_edo" target="_blank">Sarah Drasner</a></h4>
-        <a href="feed.xml"><button><i class="icon icon-rss"></i>RSS Feed</button></a>
+        <a href="feed.xml" class="rssbutton">
+          <button><i class="icon icon-rss"></i>RSS Feed</button>
+        </a>
       </div>
     </div>
   </div>
@@ -25,7 +27,7 @@ export default {};
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 250px;
+  height: 280px;
   background: url('./../assets/feature-logo.png') bottom right no-repeat, #212121;
   background-size: 70%;
   padding: 12vmin 0;
@@ -47,6 +49,7 @@ h3 {
 
 h5 {
   margin-bottom: 5px;
+  margin-top: 0;
 }
 
 .mastheadbottom {
@@ -62,7 +65,13 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: left;
-  padding-left: 50px;
+  margin-left: 50px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  width: 266px;
+  height: 170px;
+  border: 1px solid #333;
+  border-radius: 5px;
 }
 
 .rssmessage {
@@ -72,6 +81,10 @@ h5 {
   align-content: flex-end;
   align-items: right;
   padding-right: 70px;
+  margin-top: 190px;
+}
+
+.rssbutton {
   margin-top: 10px;
 }
 
@@ -110,7 +123,7 @@ h4 {
   }
 
   .mastheadcontain {
-    height: 450px;
+    height: 480px;
   }
 }
 </style>
