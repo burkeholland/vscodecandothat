@@ -1,4 +1,16 @@
 module.exports = [{
+    title: 'Slack Chat',
+    body: `<p>The <a href="">Slack Chat extension</a> for VS Code embeds a chat window in the editor. This is paticularly useful for chatting during Live Share sessions. It has the added benefit of being able to start a Live Share session with the "/live share" command.</p>`,
+    video: 'https://www.youtube.com/embed/uFtGdxgqVEk?rel=0',
+    ctaTarget: 'https://marketplace.visualstudio.com/items?itemName=karigari.chat&WT.mc_id=vscodecandothat-dotcom-buhollan'
+  },
+  {
+    title: 'Soft Undo',
+    body: `<p>Use the Soft Undo (<code>⌘/⌃ + U</code>) to move the cursor back to it's previous location. This is particularly useful when you need to move down in a long file to copy a variable or function name and then go back to your original position.</p>`,
+    video: 'https://www.youtube.com/embed/Q4MvnT4TjJc?rel=0',
+    ctaTarget: 'https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_keyboard-reference-sheets&WT.mc_id=vscodecandothat-dotcom-team'
+  },
+  {
     title: 'Share your localhost',
     body: `<p>This tip is brought to you by <a href="https://twitter.com/lostintangent">Jonathan Carter</a>.</p><p>VS Code <a href="https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare&WT.mc_id=vscodecandothat-dotcom-team">Live Share</a> enables you to share any TCP process on your computer with people who are currently connected to your Live Share session. Choose "Share Server" from the Command Palette and select a port to share. Now they can access your localhost like it's their localhost.</p>`,
     video: 'https://www.youtube.com/embed/7SAcu5xvvug?rel=0',
