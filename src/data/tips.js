@@ -1,4 +1,10 @@
 module.exports = [{
+    title: 'Breadcrumbs',
+    body: `<p>This tip is brought to you by <a href="https://twitter.com/holtbt">Brian Holt</a>.</p><p>Use the Breadcrumbs feature in VS Code to quickly jump between folders, files and even sections in code without ever leaving your current tab.</p><p>To enable, select "Toggle Breadcrumbs" from the Command Palette.</p>`,
+    video: 'https://www.youtube.com/embed/QRvL_PtwUxw?rel=0',
+    ctaTarget: 'https://code.visualstudio.com/updates/v1_26#_breadcrumbs?WT.mc_id=vscodecandothat-dotcom-team'
+  },
+  {
     title: 'Slack Chat',
     body: `<p>The <a href="">Slack Chat extension</a> for VS Code embeds a chat window in the editor. This is paticularly useful for chatting during Live Share sessions. It has the added benefit of being able to start a Live Share session with the "/live share" command.</p>`,
     video: 'https://www.youtube.com/embed/uFtGdxgqVEk?rel=0',
