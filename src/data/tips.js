@@ -1,4 +1,10 @@
 module.exports = [{
+    title: 'Toggle Sidebar Focus',
+    body: `<p>You can navigate in and out of the sidebar without ever touching the mouse. Use <code>⌃/⌘+ 0</code> to set focus to the Siebar and <code>⌃/⌘+ 1</code> to set it to the editor. On a Mac, you can use <code>⌃/⌘+ ⇣</code> to select a file in the Sidebar Explorer with your keyboard. On Windows just press the <code>enter</code> key.</p>`,
+    video: 'https://www.youtube.com/embed/dG7g2DyT_r0?rel=0',
+    ctaTarget: 'https://code.visualstudio.com/docs/getstarted/keybindings?WT.mc_id=vscodecandothat-dotcom-team'
+  },
+  {
     title: 'Breadcrumbs',
     body: `<p>This tip is brought to you by <a href="https://twitter.com/holtbt">Brian Holt</a>.</p><p>Use the Breadcrumbs feature in VS Code to quickly jump between folders, files and even sections in code without ever leaving your current tab.</p><p>To enable, select "Toggle Breadcrumbs" from the Command Palette.</p>`,
     video: 'https://www.youtube.com/embed/QRvL_PtwUxw?rel=0',
@@ -8,7 +14,7 @@ module.exports = [{
     title: 'Slack Chat',
     body: `<p>The <a href="">Slack Chat extension</a> for VS Code embeds a chat window in the editor. This is paticularly useful for chatting during Live Share sessions. It has the added benefit of being able to start a Live Share session with the "/live share" command.</p>`,
     video: 'https://www.youtube.com/embed/uFtGdxgqVEk?rel=0',
-    ctaTarget: 'https://marketplace.visualstudio.com/items?itemName=karigari.chat&WT.mc_id=vscodecandothat-dotcom-buhollan'
+    ctaTarget: 'https://marketplace.visualstudio.com/items?itemName=karigari.chat&WT.mc_id=vscodecandothat-dotcom-team'
   },
   {
     title: 'Soft Undo',
