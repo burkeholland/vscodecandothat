@@ -6,23 +6,21 @@
 </template>
 
 <script>
-  export default {
-
-  }
+export default {};
 </script>
 
 <style scoped>
- #banner {
-   background:#274357;
-   width: 100%;
-   text-align: center;
-   z-index: 1;
-   margin-top: -15px;
-   padding: 10px 0 10px;
- }
+#banner {
+  background: #274357;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  margin-top: -15px;
+  padding: 10px 0 10px;
+}
 
-  .subtitle {
-    margin: 0px;
-    margin-top: 5px;
-  }
+.subtitle {
+  margin: 0px;
+  margin-top: 5px;
+}
 </style>

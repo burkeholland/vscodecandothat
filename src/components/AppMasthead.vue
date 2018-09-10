@@ -28,7 +28,8 @@ export default {};
   flex-direction: column;
   width: 100vw;
   height: 280px;
-  background: url('./../assets/feature-logo.png') bottom right no-repeat, #212121;
+  background: url('./../assets/feature-logo.png') bottom right no-repeat,
+    #212121;
   background-size: 70%;
   padding: 12vmin 0;
   position: relative;
@@ -89,8 +90,9 @@ h5 {
 }
 
 h4 {
-  font-family: 'AvenirNextLTW01-Italic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-    Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'AvenirNextLTW01-Italic', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
   margin: 5px;
   text-align: right;
 }
@@ -110,7 +112,7 @@ h4 {
 } /* '' */
 
 @media screen and (min-width: 699px) and (max-width: 900px) {
-  .rssmessage { 
+  .rssmessage {
     padding-right: 20px;
     margin-bottom: -20px;
     width: 40%;

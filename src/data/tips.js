@@ -1,4 +1,10 @@
 module.exports = [{
+    title: 'Pull Requests',
+    body: `<p>The [Github Pull Requests extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&WT.mc_id=vscodecandothat-dotcom-team) from Github allows you to view and interact with your Pull Requests directly from within VS Code.</p>`,
+    video: 'https://www.youtube.com/embed/QwFzkD__MZI?rel=0',
+    ctaTarget: 'https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&WT.mc_id=vscodecandothat-dotcom-team'
+  },
+  {
     title: 'Toggle Sidebar Focus',
     body: `<p>You can navigate in and out of the sidebar without ever touching the mouse. Use <code>⌃/⌘+ 0</code> to set focus to the Siebar and <code>⌃/⌘+ 1</code> to set it to the editor. On a Mac, you can use <code>⌃/⌘+ ⇣</code> to select a file in the Sidebar Explorer with your keyboard. On Windows just press the <code>enter</code> key.</p>`,
     video: 'https://www.youtube.com/embed/dG7g2DyT_r0?rel=0',
