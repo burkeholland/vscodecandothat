@@ -1,6 +1,6 @@
 module.exports = [{
     title: 'Pull Requests',
-    body: `<p>The [Github Pull Requests extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&WT.mc_id=vscodecandothat-dotcom-team) from Github allows you to view and interact with your Pull Requests directly from within VS Code.</p>`,
+    body: `<p>The <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&WT.mc_id=vscodecandothat-dotcom-team">Github Pull Requests extension</a> from Github allows you to view and interact with your Pull Requests directly from within VS Code.</p>`,
     video: 'https://www.youtube.com/embed/QwFzkD__MZI?rel=0',
     ctaTarget: 'https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&WT.mc_id=vscodecandothat-dotcom-team'
   },
