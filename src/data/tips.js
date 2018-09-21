@@ -1,4 +1,10 @@
 module.exports = [{
+    title: 'Balance Inward/Outward',
+    body: `<p>You can select a whole tag in VS Code by using the <code>balance inward</code> and <code>balance outward</code> Emmet commands. It's helpful to bind these commands to keyboard shortcuts, like <code>Ctrl + Shift + Up Arrow</code> for Balance Outward and <code>Ctrl + Shift + Down Arrow</code> for Balance Inward.</p>`,
+    video: 'https://www.youtube.com/embed/YOOvUkO7uss?rel=0',
+    ctaTarget: 'https://code.visualstudio.com/docs/editor/emmet?WT.mc_id=vscodecandothat-dotcom-team'
+  },
+  {
     title: 'Pull Requests',
     body: `<p>The <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github&WT.mc_id=vscodecandothat-dotcom-team">Github Pull Requests extension</a> from Github allows you to view and interact with your Pull Requests directly from within VS Code.</p>`,
     video: 'https://www.youtube.com/embed/QwFzkD__MZI?rel=0',
