@@ -224,5 +224,17 @@ module.exports = [
     body: '<p>VS Code can automatically update HTML img tags with the correct size of images. This works for images that are local to the project as well as images included by URL. It also works in CSS properties like `background-image`.</p>',
     video: 'https://www.youtube.com/embed/drXu4L-4Q3I',
     ctaTarget: 'https://youtu.be/8Ry05EZ7Y4o?t=7m36s'
+  },
+  {
+    title: 'Snippet creation in VSCode',
+    body: '<p>This describes how easy it is to create your own snippets and become really productive</p>',
+    ctaTarget: 'https://chrisnoring.gitbooks.io/vs-code-tips-and-tricks/content/snippets.html',
+    video: 'https://www.youtube.com/embed/jQ_6bgtMy8k?rel=0'
+  },
+  {
+    title: 'Publish your snippet/extension to Marketplace',
+    body: '<p>This describes how easy it is to create an extension and upload it to the marketplace so other developers can install your extension using VSCode</p>',
+    ctaTarget: 'https://chrisnoring.gitbooks.io/vs-code-tips-and-tricks/content/publish-your-snippet-to-the-marketplace.html',
+    video: 'https://www.youtube.com/embed/4iIqy4QcCAA?rel=0'
   }
 ];
