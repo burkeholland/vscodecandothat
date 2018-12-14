@@ -1,4 +1,11 @@
-module.exports = [{
+module.exports = [
+  {
+    title: 'Refactor Promises to Async/Await',
+    body: `<p>This tip and video brought to you by <a href="https://twitter.com/umaar">Umar Hansa</a></p><p>VS Code can refactor promises in TypeScript into Async/Await. This includes multiple <code>then</code> statements, <code>Promise.all()</code> and <code>Promise.race()</code>. Requires TypeScript 3.1.1.</p>`,
+    video: 'https://www.youtube.com/embed/_x9Tk39wR9Y?rel=0',
+    ctaTarget: 'https://github.com/Microsoft/TypeScript/issues/25082'
+  },
+  {
     title: 'Balance Inward/Outward',
     body: `<p>You can select a whole tag in VS Code by using the <code>balance inward</code> and <code>balance outward</code> Emmet commands. It's helpful to bind these commands to keyboard shortcuts, like <code>Ctrl + Shift + Up Arrow</code> for Balance Outward and <code>Ctrl + Shift + Down Arrow</code> for Balance Inward.</p>`,
     video: 'https://www.youtube.com/embed/YOOvUkO7uss?rel=0',
