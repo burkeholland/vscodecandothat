@@ -3,12 +3,14 @@
     <h1>VS Code can do that?!</h1>
     <h3>All the best things about Visual Studio Code that nobody ever bothered to tell you</h3>
     <div class="mastheadbottom">
-      <div class="videoplaylist">
+      <!-- 
+        <div class="videoplaylist">
         <h5>VS Code Release Highlights Video:</h5>
         <iframe height="140px" src="https://www.youtube.com/embed/videoseries?list=PLG8WGLcszzgWgVzAS1IS2sJJ5ewdb-DEo&showinfo=0" allowfullscreen webkitallowfullscreen mozallowfullscreen style="position: relative; top: 0px; right: 0px; bottom: 0px; left: 0px;"  frameborder=0></iframe>
       </div>
+        -->
       <div class="rssmessage">
-        <h4>Hosted on <a href="">Azure App Service</a></h4>
+        <h4>Hosted on <a href="https://docs.microsoft.com/azure/static-web-apps/?WT.mc_id=devcloud-22498-buhollan">Azure Static Web Apps</a></h4>
         <h4>Brought to you by <a href="https://twitter.com/burkeholland" target="_blank">Burke Holland</a> and <a href="https://twitter.com/sarah_edo" target="_blank">Sarah Drasner</a></h4>
         <a href="feed.xml" class="rssbutton">
           <button><i class="icon icon-rss"></i>RSS Feed</button>
@@ -67,12 +69,13 @@ h5 {
   flex-direction: column;
   align-items: left;
   margin-left: 50px;
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.3); 
+    border: 1px solid #333;
+    border-radius: 5px;
+  */
   padding: 20px;
   width: 266px;
   height: 170px;
-  border: 1px solid #333;
-  border-radius: 5px;
 }
 
 .rssmessage {
@@ -83,6 +86,7 @@ h5 {
   align-items: right;
   padding-right: 70px;
   margin-top: 190px;
+  width: 100%;
 }
 
 .rssbutton {
