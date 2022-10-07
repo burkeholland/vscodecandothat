@@ -27,7 +27,7 @@ module.exports = [
   },
   {
     title: "Toggle Sidebar Focus",
-    body: `<p>You can navigate in and out of the sidebar without ever touching the mouse. Use <code>⌃/⌘+ 0</code> to set focus to the Siebar and <code>⌃/⌘+ 1</code> to set it to the editor. On a Mac, you can use <code>⌃/⌘+ ⇣</code> to select a file in the Sidebar Explorer with your keyboard. On Windows just press the <code>enter</code> key.</p>`,
+    body: `<p>You can navigate in and out of the sidebar without ever touching the mouse. Use <code>⌃/⌘+ 0</code> to set focus to the sidebar and <code>⌃/⌘+ 1</code> to set it to the editor. On a Mac, you can use <code>⌃/⌘+ ⇣</code> to select a file in the Sidebar Explorer with your keyboard. On Windows just press the <code>enter</code> key.</p>`,
     video: "https://www.youtube.com/embed/dG7g2DyT_r0?rel=0",
     ctaTarget:
       "https://code.visualstudio.com/docs/getstarted/keybindings?WT.mc_id=devcloud-22498-buhollan"
@@ -48,7 +48,7 @@ module.exports = [
   },
   {
     title: "Soft Undo",
-    body: `<p>Use the Soft Undo (<code>⌘/⌃ + U</code>) to move the cursor back to it's previous location. This is particularly useful when you need to move down in a long file to copy a variable or function name and then go back to your original position.</p>`,
+    body: `<p>Use the Soft Undo (<code>⌘/⌃ + U</code>) to move the cursor back to its previous location. This is particularly useful when you need to move down in a long file to copy a variable or function name and then go back to your original position.</p>`,
     video: "https://www.youtube.com/embed/Q4MvnT4TjJc?rel=0",
     ctaTarget:
       "https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_keyboard-reference-sheets&WT.mc_id=devcloud-22498-buhollan"
@@ -239,7 +239,7 @@ module.exports = [
   },
   {
     title: "Font Ligatures",
-    body: `<p>Font Ligatures are when two ore more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Settings file...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code",
+    body: `<p>Font Ligatures are when two or more characters are joined together to create a special symbols. Ligatures are especially well suited for programming where compound symbols such as <code>>=</code> or <code>===</code> are used.</p><p><a class="has-text-weight-bold" href="https://github.com/tonsky/FiraCode">Download FiraCode Font</a> and add to fonts on your computer.</p><p>Add the following line to your<strong>User Settings file...</strong></p><pre v-highlightjs><code class="javascript">"editor.fontFamily": "Fira Code",
 "editor.fontLigatures": true</code></pre>`,
     video: "https://www.youtube.com/embed/KI6m_B1f8jc",
     ctaTarget: ""
